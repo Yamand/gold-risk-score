@@ -1,0 +1,35 @@
+name: Daily Gold risk score update
+
+on:
+  schedule:
+    # 00:20 UTC daily — a few minutes after the BTC job, avoids both hitting
+    # external APIs at the exact same minute if both workflows live in one repo
+    - cron: '20 0 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas numpy requests
+
+      - name: Run gold risk score update
+        run: python gold_risk_score.py --update
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/gold_risk_history.json data/gold_prices_raw.json
+          git diff --cached --quiet || git commit -m "Daily gold risk score update"
+          git push
