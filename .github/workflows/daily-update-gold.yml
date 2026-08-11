@@ -33,3 +33,9 @@ jobs:
           git add data/gold_risk_history.json data/gold_prices_raw.json
           git diff --cached --quiet || git commit -m "Daily gold risk score update"
           git push
+
+      - name: Send Telegram alert
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python gold_risk_alert.py
