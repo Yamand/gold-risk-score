@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gold Risk Score</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTUiIGZpbGw9IiMwYTBlMTQiIHN0cm9rZT0iI2Q0YWYzNyIgc3Ryb2tlLXdpZHRoPSIyIi8+PHRleHQgeD0iMTYiIHk9IjIxLjUiIGZvbnQtZmFtaWx5PSJHZW9yZ2lhLCBzZXJpZiIgZm9udC1zaXplPSIxMyIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2Q0YWYzNyIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QXU8L3RleHQ+PC9zdmc+">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
@@ -358,14 +359,13 @@ const COMPONENT_META = [
 
 // Mirrors ZONES in gold_risk_score.py — base $10/week
 const ZONES = [
-  { upper: 0.10, zone: 'Extreme Buy',        mult: 3.0,  size: 30, action: 'Max accumulate',           color: '#16a34a' },
-  { upper: 0.20, zone: 'Strong Buy',         mult: 1.5,  size: 15, action: 'Accumulate',                color: '#22c55e' },
-  { upper: 0.25, zone: 'Buy',                mult: 1.0,  size: 10, action: 'Normal DCA',                color: '#4ade80' },
-  { upper: 0.35, zone: 'Reduced Buy',        mult: 0.5,  size: 5,  action: 'Slow down',                 color: '#86efac' },
-  { upper: 0.60, zone: 'Stop — Hold',        mult: 0.0,  size: 0,  action: 'Accumulation done',         color: '#9aa4b5' },
-  { upper: 0.70, zone: 'Sell Tier 1',        mult: null, size: null, action: 'Exit 5% of holdings',     color: '#f5a623' },
-  { upper: 0.80, zone: 'Sell Tier 2',        mult: null, size: null, action: 'Exit 10% of holdings',    color: '#f0713f' },
-  { upper: 1.01, zone: 'Sell Tier 3 / Exit', mult: null, size: null, action: 'Exit 20% or full position', color: '#f0553f' },
+  { upper: 0.15, zone: 'Extreme Buy',        mult: 3.0,  size: 30, action: 'Max accumulate',              color: '#16a34a' },
+  { upper: 0.25, zone: 'Strong Buy',         mult: 1.5,  size: 15, action: 'Accumulate',                  color: '#22c55e' },
+  { upper: 0.40, zone: 'Buy',                mult: 1.0,  size: 10, action: 'Normal DCA',                  color: '#4ade80' },
+  { upper: 0.60, zone: 'Reduced / Hold',     mult: 0.5,  size: 5,  action: 'Slow down',                   color: '#86efac' },
+  { upper: 0.70, zone: 'Sell Tier 1',        mult: null, size: null, action: 'Exit 10% of holdings',      color: '#f5a623' },
+  { upper: 0.80, zone: 'Sell Tier 2',        mult: null, size: null, action: 'Exit 20% of holdings',      color: '#f0713f' },
+  { upper: 1.01, zone: 'Sell Tier 3 / Exit', mult: null, size: null, action: 'Exit 30% or full position',  color: '#dc2626' },
 ];
 
 function zoneFor(score) {
