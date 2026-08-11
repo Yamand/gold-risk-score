@@ -15602,14 +15602,14 @@
   {
     "date": "2025-12-02",
     "close": 4209.3,
-    "composite_score": 0.7786,
+    "composite_score": 0.7789,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9133,
+      "log_regression": 0.9141,
       "ma200_multiple": 0.7925,
       "rsi14": 0.6227,
       "vol_adj_momentum": 0.6815
@@ -19617,8 +19617,8 @@
   },
   {
     "date": "2026-08-10",
-    "close": 4406.2,
-    "composite_score": 0.456,
+    "close": 4405.4,
+    "composite_score": 0.4558,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
@@ -19627,8 +19627,8 @@
     "components": {
       "log_regression": 0.4215,
       "ma200_multiple": 0.0593,
-      "rsi14": 0.7383,
-      "vol_adj_momentum": 0.73
+      "rsi14": 0.7379,
+      "vol_adj_momentum": 0.7293
     }
   }
 ]
