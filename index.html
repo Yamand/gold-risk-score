@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.1.0/dist/chartjs-plugin-zoom.min.js"></script>
 <style>
   :root {
     --bg-0: #0a0e14;
@@ -249,6 +251,24 @@
   .range-toggle button:hover { color: var(--text-hi); border-color: rgba(255,255,255,0.25); }
   .range-toggle button.active { background: var(--gold); color: #12100c; border-color: var(--gold); font-weight: 600; }
 
+  .zoom-controls {
+    display: flex;
+    gap: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11.5px;
+  }
+  .zoom-controls button {
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    color: var(--text-mid);
+    padding: 5px 11px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .zoom-controls button:hover { color: var(--text-hi); border-color: rgba(255,255,255,0.25); }
+  .zoom-controls button:active { transform: scale(0.95); }
+
   .charts-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -326,10 +346,18 @@
     <div class="glass chart-card">
       <div class="chart-header">
         <h2 style="margin:0;">Price &amp; risk score</h2>
-        <div class="range-toggle" id="range-toggle">
-          <button data-range="180">6M</button>
-          <button data-range="365">1Y</button>
-          <button data-range="0" class="active">All</button>
+        <div style="display:flex; gap:12px; align-items:center;">
+          <div class="range-toggle" id="range-toggle">
+            <button data-range="180">6M</button>
+            <button data-range="365">1Y</button>
+            <button data-range="0" class="active">All</button>
+          </div>
+          <div class="zoom-controls" id="zoom-controls">
+            <button id="zoom-in" title="Zoom in (scroll up)">+</button>
+            <button id="zoom-out" title="Zoom out (scroll down)">−</button>
+            <button id="zoom-reset" title="Reset zoom">Reset</button>
+            <span style="color:var(--text-low); font-size:10px; align-self:center; margin-left:4px;">Drag to pan</span>
+          </div>
         </div>
       </div>
       <canvas id="priceChart"></canvas>
@@ -381,21 +409,11 @@ function zoneRangeLabel(i) {
 }
 
 function scoreColor(s) {
-  // green -> amber -> red across 0 -> 1
-  const stops = [
-    [0.00, [51, 209, 122]],
-    [0.50, [245, 196, 81]],
-    [1.00, [240, 85, 63]],
-  ];
-  for (let i = 0; i < stops.length - 1; i++) {
-    const [p0, c0] = stops[i], [p1, c1] = stops[i + 1];
-    if (s >= p0 && s <= p1) {
-      const t = (s - p0) / (p1 - p0);
-      const c = c0.map((v, idx) => Math.round(v + (c1[idx] - v) * t));
-      return `rgb(${c[0]},${c[1]},${c[2]})`;
-    }
-  }
-  return s < 0 ? 'rgb(51,209,122)' : 'rgb(240,85,63)';
+  // Use the exact same 7-zone color as the gauge and rule table, so the chart's
+  // color at any point tells you precisely which zone that day was in — not a
+  // blurred interpolation that hides tier boundaries.
+  if (s == null || Number.isNaN(s)) return '#5c6478';
+  return zoneFor(s).color;
 }
 
 function drawGauge(score, needleColor) {
@@ -513,6 +531,30 @@ async function init() {
 
   let priceChart, componentChart;
 
+  // Paints faint horizontal bands for each zone behind the chart, keyed to the
+  // y1 (risk score) axis, so tier boundaries read at a glance instead of only
+  // on hover.
+  const zoneBandsPlugin = {
+    id: 'zoneBands',
+    beforeDatasetsDraw(chart) {
+      const { ctx, chartArea, scales } = chart;
+      const y1 = scales.y1;
+      if (!chartArea || !y1) return;
+      ctx.save();
+      let prevUpper = 0;
+      for (const z of ZONES) {
+        const hi = Math.min(z.upper, 1);
+        const yTop = y1.getPixelForValue(hi);
+        const yBottom = y1.getPixelForValue(prevUpper);
+        ctx.fillStyle = z.color;
+        ctx.globalAlpha = 0.05;
+        ctx.fillRect(chartArea.left, yTop, chartArea.right - chartArea.left, yBottom - yTop);
+        prevUpper = hi;
+      }
+      ctx.restore();
+    },
+  };
+
   function sliceData(days) {
     if (!days) return data;
     return data.slice(-days);
@@ -529,6 +571,7 @@ async function init() {
     if (priceChart) priceChart.destroy();
     priceChart = new Chart(document.getElementById('priceChart'), {
       type: 'line',
+      plugins: [zoneBandsPlugin],
       data: {
         labels,
         datasets: [
@@ -571,8 +614,24 @@ async function init() {
             callbacks: {
               label: ctx => {
                 if (ctx.dataset.label === 'XAU/USD') return `  Price: ${fmtUSD(ctx.parsed.y)}`;
-                return `  Score: ${ctx.parsed.y.toFixed(2)}`;
+                return `  Score: ${ctx.parsed.y.toFixed(2)} — ${zoneFor(ctx.parsed.y).zone}`;
               },
+            },
+          },
+          zoom: {
+            zoom: {
+              wheel: { enabled: true, speed: 0.1 },
+              pinch: { enabled: true },
+              mode: 'xy',
+            },
+            pan: {
+              enabled: true,
+              mode: 'xy',
+            },
+            limits: {
+              x: { min: 'original', max: 'original' },
+              y: { min: 'original', max: 'original' },
+              y1: { min: 'original', max: 'original' },
             },
           },
         },
@@ -632,6 +691,22 @@ async function init() {
     document.querySelectorAll('#range-toggle button').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     renderCharts(Number(btn.dataset.range));
+  });
+
+  // Zoom controls
+  document.getElementById('zoom-in').addEventListener('click', () => {
+    if (!priceChart) return;
+    priceChart.zoom(1.2, 'auto');
+  });
+
+  document.getElementById('zoom-out').addEventListener('click', () => {
+    if (!priceChart) return;
+    priceChart.zoom(0.8, 'auto');
+  });
+
+  document.getElementById('zoom-reset').addEventListener('click', () => {
+    if (!priceChart) return;
+    priceChart.resetZoom();
   });
 }
 
