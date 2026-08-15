@@ -203,6 +203,54 @@
   .stat-row .stat .v { font-size: 17px; font-weight: 600; }
   .stat-row .stat .k { font-size: 10.5px; color: var(--text-low); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 3px; }
 
+  .wellness-core {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid var(--glass-border);
+    width: 100%;
+  }
+
+  .wc-stage { width: 72px; height: 72px; flex-shrink: 0; }
+  .wc-stage svg { width: 100%; height: 100%; overflow: visible; }
+
+  .wc-info { text-align: left; }
+  .wc-mood-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .wc-sub {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-low);
+    margin-top: 2px;
+  }
+
+  @keyframes wc-bounce { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-6px) scale(1.03,0.97); } }
+  @keyframes wc-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-2.5px); } }
+  @keyframes wc-breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.015); } }
+  @keyframes wc-tremble { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-1px); } 75% { transform: translateX(1px); } }
+  @keyframes wc-shake { 0%, 100% { transform: translateX(0) rotate(0); } 20% { transform: translateX(-2px) rotate(-1.5deg); } 40% { transform: translateX(2px) rotate(1.5deg); } 60% { transform: translateX(-2px) rotate(-1deg); } 80% { transform: translateX(2px) rotate(1deg); } }
+  @keyframes wc-flash { 0%, 100% { opacity: 0; } 50% { opacity: 0.14; } }
+  @keyframes wc-sparkle { 0% { transform: translateY(0) scale(1); opacity: 1; } 100% { transform: translateY(-10px) scale(0.3); opacity: 0; } }
+  @keyframes wc-drip { 0% { transform: translateY(0); opacity: 1; } 100% { transform: translateY(8px); opacity: 0; } }
+  @keyframes wc-blink-op { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+
+  .anim-extreme_buy { animation: wc-bounce 0.7s ease-in-out infinite; }
+  .anim-strong_buy  { animation: wc-bounce 0.95s ease-in-out infinite; }
+  .anim-buy         { animation: wc-bob 1.7s ease-in-out infinite; }
+  .anim-hold        { animation: wc-breathe 2.6s ease-in-out infinite; }
+  .anim-sell1       { animation: wc-tremble 0.45s ease-in-out infinite; }
+  .anim-sell2       { animation: wc-shake 0.5s ease-in-out infinite; }
+  .anim-sell3       { animation: wc-shake 0.32s ease-in-out infinite; }
+
+  @media (max-width: 600px) {
+    .wellness-core { justify-content: center; }
+  }
+
   .components-card { padding: 26px 28px; }
 
   .components-card h2, .chart-card h2 {
@@ -357,6 +405,26 @@
             <div class="k">This Week</div>
           </div>
         </div>
+
+        <div class="wellness-core">
+          <div class="wc-stage">
+            <svg viewBox="0 0 160 160">
+              <g id="wc-char">
+                <rect id="wc-flash" x="18" y="18" width="124" height="124" rx="38" fill="#dc2626" opacity="0"/>
+                <rect id="wc-body" x="18" y="18" width="124" height="124" rx="38" fill="#4ade80" stroke="#000" stroke-width="2"/>
+                <ellipse cx="52" cy="46" rx="20" ry="12" fill="#fff" opacity="0.22" transform="rotate(-18 52 46)"/>
+                <g id="wc-eye-l" transform="translate(62,72)"></g>
+                <g id="wc-eye-r" transform="translate(98,72)"></g>
+                <g id="wc-mouth" transform="translate(80,102)"></g>
+                <g id="wc-particles"></g>
+              </g>
+            </svg>
+          </div>
+          <div class="wc-info">
+            <div class="wc-mood-name" id="wc-mood-name">&mdash;</div>
+            <div class="wc-sub" id="wc-sub">wellness core</div>
+          </div>
+        </div>
       </div>
 
       <div class="glass components-card">
@@ -417,14 +485,68 @@ const COMPONENT_META = [
 
 // Mirrors ZONES in gold_risk_score.py — base $10/week
 const ZONES = [
-  { upper: 0.15, zone: 'Extreme Buy',        mult: 3.0,  size: 30, action: 'Max accumulate',              color: '#16a34a' },
-  { upper: 0.25, zone: 'Strong Buy',         mult: 1.5,  size: 15, action: 'Accumulate',                  color: '#22c55e' },
-  { upper: 0.40, zone: 'Buy',                mult: 1.0,  size: 10, action: 'Normal DCA',                  color: '#4ade80' },
-  { upper: 0.60, zone: 'Reduced / Hold',     mult: 0.5,  size: 5,  action: 'Slow down',                   color: '#86efac' },
-  { upper: 0.70, zone: 'Sell Tier 1',        mult: null, size: null, action: 'Exit 10% of holdings',      color: '#f5a623' },
-  { upper: 0.80, zone: 'Sell Tier 2',        mult: null, size: null, action: 'Exit 20% of holdings',      color: '#f0713f' },
-  { upper: 1.01, zone: 'Sell Tier 3 / Exit', mult: null, size: null, action: 'Exit 30% or full position',  color: '#dc2626' },
+  { upper: 0.15, zone: 'Extreme Buy',        mult: 3.0,  size: 30, action: 'Max accumulate',              color: '#16a34a', mood: 'Thriving',  eyes: 'happy',   mouth: 'grin',      particle: 'sparkle', anim: 'anim-extreme_buy' },
+  { upper: 0.25, zone: 'Strong Buy',         mult: 1.5,  size: 15, action: 'Accumulate',                  color: '#22c55e', mood: 'Excited',   eyes: 'happy',   mouth: 'smile',     particle: 'sparkle', anim: 'anim-strong_buy' },
+  { upper: 0.40, zone: 'Buy',                mult: 1.0,  size: 10, action: 'Normal DCA',                  color: '#4ade80', mood: 'Content',   eyes: 'open',    mouth: 'smile',     particle: 'none',    anim: 'anim-buy' },
+  { upper: 0.60, zone: 'Reduced / Hold',     mult: 0.5,  size: 5,  action: 'Slow down',                   color: '#86efac', mood: 'Neutral',   eyes: 'flat',    mouth: 'neutral',   particle: 'none',    anim: 'anim-hold' },
+  { upper: 0.70, zone: 'Sell Tier 1',        mult: null, size: null, action: 'Exit 10% of holdings',      color: '#f5a623', mood: 'Worried',   eyes: 'worried', mouth: 'frownsoft', particle: 'sweat',   anim: 'anim-sell1' },
+  { upper: 0.80, zone: 'Sell Tier 2',        mult: null, size: null, action: 'Exit 20% of holdings',      color: '#f0713f', mood: 'Stressed',  eyes: 'wide',    mouth: 'frown',     particle: 'sweat',   anim: 'anim-sell2' },
+  { upper: 1.01, zone: 'Sell Tier 3 / Exit', mult: null, size: null, action: 'Exit 30% or full position',  color: '#dc2626', mood: 'Panicked',  eyes: 'x',       mouth: 'zigzag',    particle: 'exclaim', anim: 'anim-sell3' },
 ];
+
+// ---- Wellness core (mood mascot) ----
+const WC_EYE = {
+  happy:   '<path d="M-8,2 Q0,-10 8,2 Q0,-2 -8,2 Z" fill="#241a10"/>',
+  open:    '<circle r="5" fill="#241a10"/>',
+  flat:    '<rect x="-7" y="-1.5" width="14" height="3" rx="1.5" fill="#241a10"/>',
+  worried: '<circle r="5" fill="#241a10"/><path d="M-8,-9 L6,-6" stroke="#241a10" stroke-width="2.5" stroke-linecap="round"/>',
+  wide:    '<circle r="7.5" fill="#241a10"/>',
+  x:       '<path d="M-6,-6 L6,6 M-6,6 L6,-6" stroke="#241a10" stroke-width="3" stroke-linecap="round"/>',
+};
+const WC_MOUTH = {
+  grin:      '<path d="M-16,0 Q0,26 16,0 Q0,12 -16,0 Z" fill="#241a10"/>',
+  smile:     '<path d="M-13,0 Q0,11 13,0" stroke="#241a10" stroke-width="3" fill="none" stroke-linecap="round"/>',
+  neutral:   '<rect x="-11" y="-1.5" width="22" height="3" rx="1.5" fill="#241a10"/>',
+  frownsoft: '<path d="M-12,4 Q0,-4 12,4" stroke="#241a10" stroke-width="3" fill="none" stroke-linecap="round"/>',
+  frown:     '<path d="M-14,8 Q0,-10 14,8 Q0,0 -14,8 Z" fill="#241a10"/>',
+  zigzag:    '<path d="M-14,0 L-7,7 L0,-3 L7,7 L14,0" stroke="#241a10" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>',
+};
+
+function wcDarken(hex, amt) {
+  const n = parseInt(hex.slice(1), 16);
+  let r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
+  r = Math.max(0, r * amt) | 0; g = Math.max(0, g * amt) | 0; b = Math.max(0, b * amt) | 0;
+  return '#' + [r, g, b].map(v => v.toString(16).padStart(2, '0')).join('');
+}
+
+function renderWellnessCore(score) {
+  const z = zoneFor(score);
+  const charEl = document.getElementById('wc-char');
+  if (!charEl) return;
+  charEl.setAttribute('class', z.anim);
+  document.getElementById('wc-flash').style.animation = z.anim === 'anim-sell3' ? 'wc-flash 0.35s ease-in-out infinite' : 'none';
+  document.getElementById('wc-body').setAttribute('fill', z.color);
+  document.getElementById('wc-body').setAttribute('stroke', wcDarken(z.color, 0.55));
+  document.getElementById('wc-eye-l').innerHTML = WC_EYE[z.eyes];
+  document.getElementById('wc-eye-r').innerHTML = WC_EYE[z.eyes];
+  document.getElementById('wc-mouth').innerHTML = WC_MOUTH[z.mouth];
+
+  const p = document.getElementById('wc-particles');
+  p.innerHTML = '';
+  if (z.particle === 'sparkle') {
+    [[36, 34], [128, 40], [118, 118]].forEach((pos, i) => {
+      p.innerHTML += `<path d="M${pos[0]},${pos[1]-4} L${pos[0]+1.5},${pos[1]-1.5} L${pos[0]+4},${pos[1]} L${pos[0]+1.5},${pos[1]+1.5} L${pos[0]},${pos[1]+4} L${pos[0]-1.5},${pos[1]+1.5} L${pos[0]-4},${pos[1]} L${pos[0]-1.5},${pos[1]-1.5} Z" fill="#facc15" style="animation:wc-sparkle 1.1s ease-in ${i * 0.3}s infinite;transform-origin:${pos[0]}px ${pos[1]}px"/>`;
+    });
+  } else if (z.particle === 'sweat') {
+    p.innerHTML = `<path d="M120,44 Q126,54 120,60 Q114,54 120,44 Z" fill="#5dcaa5" style="animation:wc-drip 1.3s ease-in infinite;transform-origin:120px 44px"/>`;
+  } else if (z.particle === 'exclaim') {
+    p.innerHTML = `<rect x="77" y="0" width="6" height="16" rx="3" fill="#dc2626" style="animation:wc-blink-op 0.5s ease-in-out infinite"/><circle cx="80" cy="22" r="3.5" fill="#dc2626" style="animation:wc-blink-op 0.5s ease-in-out infinite"/>`;
+  }
+
+  document.getElementById('wc-mood-name').textContent = z.mood;
+  document.getElementById('wc-mood-name').style.color = z.color;
+  document.getElementById('wc-sub').textContent = `${z.zone} \u00b7 ${score.toFixed(2)}`;
+}
 
 function zoneFor(score) {
   for (const z of ZONES) if (score < z.upper) return z;
@@ -524,6 +646,7 @@ async function init() {
     latest.size_usd != null ? `$${latest.size_usd}` : (z.mult == null ? 'SELL' : `$${z.size}`);
 
   drawGauge(latest.composite_score, z.color);
+  renderWellnessCore(latest.composite_score);
 
   const ruleTable = document.getElementById('rule-table');
   ruleTable.innerHTML = ZONES.map((zn, i) => {
