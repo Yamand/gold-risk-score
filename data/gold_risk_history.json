@@ -98,14 +98,14 @@
   {
     "date": "2023-04-08",
     "close": 2014.0,
-    "composite_score": 0.6072,
+    "composite_score": 0.6085,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.717,
+      "log_regression": 0.7208,
       "ma200_multiple": 0.2264,
       "rsi14": 0.6754,
       "vol_adj_momentum": 0.8226
@@ -9570,14 +9570,14 @@
   {
     "date": "2024-11-20",
     "close": 2668.2,
-    "composite_score": 0.3621,
+    "composite_score": 0.3625,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.3151,
+      "log_regression": 0.3162,
       "ma200_multiple": 0.4294,
       "rsi14": 0.5286,
       "vol_adj_momentum": 0.1937
@@ -15426,14 +15426,14 @@
   {
     "date": "2025-11-21",
     "close": 4052.2,
-    "composite_score": 0.6083,
+    "composite_score": 0.6086,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8136,
+      "log_regression": 0.8144,
       "ma200_multiple": 0.7318,
       "rsi14": 0.5042,
       "vol_adj_momentum": 0.1987
@@ -18242,14 +18242,14 @@
   {
     "date": "2026-05-16",
     "close": 4541.9,
-    "composite_score": 0.3272,
+    "composite_score": 0.3275,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.6598,
+      "log_regression": 0.6605,
       "ma200_multiple": 0.0357,
       "rsi14": 0.3853,
       "vol_adj_momentum": 0.0515
@@ -19761,18 +19761,18 @@
   },
   {
     "date": "2026-08-19",
-    "close": 4474.2,
-    "composite_score": 0.482,
+    "close": 4468.1,
+    "composite_score": 0.4745,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4538,
-      "ma200_multiple": 0.095,
-      "rsi14": 0.6991,
-      "vol_adj_momentum": 0.7979
+      "log_regression": 0.4465,
+      "ma200_multiple": 0.0857,
+      "rsi14": 0.6911,
+      "vol_adj_momentum": 0.7932
     }
   }
 ]
