@@ -62,7 +62,12 @@ import requests
 
 OKX_HISTORY_URL = "https://www.okx.com/api/v5/market/candles"
 INST_ID = "XAUT-USDT"
-BAR = "1D"
+BAR = "1Dutc"  # UTC-aligned daily candles — OKX's plain "1D" bar is aligned to
+# UTC+8 (Hong Kong time) by default, meaning a "1D" candle opens at 16:00 UTC
+# the *previous* calendar day. That's what caused the date to lag a day
+# behind the BTC/Binance script even after switching to the live candles
+# endpoint: the newest candle's timestamp normalized down to yesterday's UTC
+# date. "1Dutc" opens candles at UTC midnight, matching Binance's convention.
 DATA_DIR = Path(__file__).parent / "data"
 HISTORY_FILE = DATA_DIR / "gold_risk_history.json"
 # Raw close-price cache: EVERY fetched date/close, including the pre-warmup
