@@ -25,16 +25,25 @@ so the score self-calibrates over time without hardcoded thresholds):
 0 = cheap / accumulate harder.  1 = expensive / reduce or take profit.
 
 OKX API NOTES:
-  - Endpoint: GET /api/v5/market/history-candles — this is OKX's endpoint
-    specifically for older historical data (their /market/candles endpoint
-    only returns a limited recent window). Docs:
-    https://www.okx.com/docs-v5/en/#order-book-trading-market-data-get-candlesticks-history
-  - Paginate backwards in time using the "after" param (returns candles
-    with timestamp strictly earlier than "after"), starting from now and
-    walking back until an empty page signals the true start of history —
-    no known/hardcoded listing date is assumed.
+  - Endpoint: GET /api/v5/market/candles — OKX's "live" candles endpoint.
+    Unlike /market/history-candles (confirmed/closed candles only, which
+    made this script's date lag a day behind the BTC script's Binance
+    feed), this endpoint includes the still-forming candle for the
+    current UTC day, so the latest row is always dated "today" just like
+    the BTC script. Docs:
+    https://www.okx.com/docs-v5/en/#order-book-trading-market-data-get-candlesticks
+  - Trade-off: this endpoint only serves a limited recent window (OKX
+    caps it around the last ~1440 bars, roughly 4 years of daily candles)
+    rather than full listing history. Paginate backwards in time using
+    the "after" param (returns candles with timestamp strictly earlier
+    than "after"), starting from now and walking back until an empty
+    page signals the edge of that window — no hardcoded listing date is
+    assumed, but a full --refresh run will now only go back ~4 years
+    instead of the token's full listing history.
   - Response rows are ordered NEWEST-first: [ts, open, high, low, close,
     vol, volCcy, volCcyQuote, confirm], all values as strings, ts in ms.
+    Note "confirm" will be "0" for the last (still-forming) row — that's
+    expected and is how the BTC/Binance script's latest row behaves too.
   - No API key needed for public market data.
 
 Usage:
@@ -51,7 +60,7 @@ import numpy as np
 import pandas as pd
 import requests
 
-OKX_HISTORY_URL = "https://www.okx.com/api/v5/market/history-candles"
+OKX_HISTORY_URL = "https://www.okx.com/api/v5/market/candles"
 INST_ID = "XAUT-USDT"
 BAR = "1D"
 DATA_DIR = Path(__file__).parent / "data"
@@ -84,10 +93,11 @@ REGRESSION_ANCHOR = pd.Timestamp("1971-08-15")
 
 def fetch_okx_history(stop_before: pd.Timestamp = None, limit=100):
     """
-    Page backwards through OKX's history-candles endpoint from now until
-    either the true start of history (an empty page) or, if stop_before is
-    given, until candles older than that date have been reached (used for
-    fast --update runs that only need a recent tail).
+    Page backwards through OKX's regular candles endpoint from now until
+    either the edge of its available window (an empty page — roughly
+    ~1440 daily bars back) or, if stop_before is given, until candles
+    older than that date have been reached (used for fast --update runs
+    that only need a recent tail).
     """
     all_rows = []
     after_cursor = None  # None = start from the most recent candle
