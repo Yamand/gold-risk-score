@@ -19985,18 +19985,18 @@
   },
   {
     "date": "2026-09-02",
-    "close": 4307.8,
-    "composite_score": 0.3001,
+    "close": 4310.3,
+    "composite_score": 0.3023,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2261,
+      "log_regression": 0.2308,
       "ma200_multiple": 0.0564,
-      "rsi14": 0.4077,
-      "vol_adj_momentum": 0.6267
+      "rsi14": 0.4094,
+      "vol_adj_momentum": 0.628
     }
   }
 ]
