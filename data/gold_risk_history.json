@@ -50,14 +50,14 @@
   {
     "date": "2023-04-05",
     "close": 2023.1,
-    "composite_score": 0.6621,
+    "composite_score": 0.6635,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8053,
+      "log_regression": 0.8092,
       "ma200_multiple": 0.2366,
       "rsi14": 0.7239,
       "vol_adj_momentum": 0.8817
@@ -386,14 +386,14 @@
   {
     "date": "2023-04-26",
     "close": 1990.0,
-    "composite_score": 0.3928,
+    "composite_score": 0.394,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.4982,
+      "log_regression": 0.5018,
       "ma200_multiple": 0.1413,
       "rsi14": 0.4948,
       "vol_adj_momentum": 0.4205
@@ -466,14 +466,14 @@
   {
     "date": "2023-05-01",
     "close": 2004.7,
-    "composite_score": 0.4402,
+    "composite_score": 0.4414,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5486,
+      "log_regression": 0.5521,
       "ma200_multiple": 0.1806,
       "rsi14": 0.5567,
       "vol_adj_momentum": 0.4583
@@ -610,14 +610,14 @@
   {
     "date": "2023-05-10",
     "close": 2022.4,
-    "composite_score": 0.4284,
+    "composite_score": 0.4295,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5556,
+      "log_regression": 0.5589,
       "ma200_multiple": 0.1751,
       "rsi14": 0.5602,
       "vol_adj_momentum": 0.3906
@@ -786,14 +786,14 @@
   {
     "date": "2023-05-21",
     "close": 1972.6,
-    "composite_score": 0.2049,
+    "composite_score": 0.2061,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1461,
+      "log_regression": 0.1494,
       "ma200_multiple": 0.0649,
       "rsi14": 0.3826,
       "vol_adj_momentum": 0.3052
@@ -850,14 +850,14 @@
   {
     "date": "2023-05-25",
     "close": 1943.3,
-    "composite_score": 0.1068,
+    "composite_score": 0.1079,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0513,
+      "log_regression": 0.0545,
       "ma200_multiple": 0.0096,
       "rsi14": 0.2912,
       "vol_adj_momentum": 0.141
@@ -882,14 +882,14 @@
   {
     "date": "2023-05-27",
     "close": 1948.1,
-    "composite_score": 0.124,
+    "composite_score": 0.1251,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0605,
+      "log_regression": 0.0637,
       "ma200_multiple": 0.0127,
       "rsi14": 0.3228,
       "vol_adj_momentum": 0.1752
@@ -1154,14 +1154,14 @@
   {
     "date": "2023-06-13",
     "close": 1959.9,
-    "composite_score": 0.1418,
+    "composite_score": 0.1429,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0332,
+      "log_regression": 0.0363,
       "ma200_multiple": 0.0121,
       "rsi14": 0.4786,
       "vol_adj_momentum": 0.1571
@@ -3522,14 +3522,14 @@
   {
     "date": "2023-11-08",
     "close": 1962.8,
-    "composite_score": 0.3284,
+    "composite_score": 0.3292,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.0418,
+      "log_regression": 0.0438,
       "ma200_multiple": 0.2171,
       "rsi14": 0.5022,
       "vol_adj_momentum": 0.7954
@@ -5250,14 +5250,14 @@
   {
     "date": "2024-02-24",
     "close": 2034.6,
-    "composite_score": 0.3227,
+    "composite_score": 0.3233,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.0239,
+      "log_regression": 0.0256,
       "ma200_multiple": 0.339,
       "rsi14": 0.5824,
       "vol_adj_momentum": 0.5656
@@ -5458,14 +5458,14 @@
   {
     "date": "2024-03-08",
     "close": 2171.3,
-    "composite_score": 0.5874,
+    "composite_score": 0.588,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2083,
+      "log_regression": 0.21,
       "ma200_multiple": 0.6017,
       "rsi14": 0.8704,
       "vol_adj_momentum": 0.95
@@ -5746,14 +5746,14 @@
   {
     "date": "2024-03-26",
     "close": 2191.4,
-    "composite_score": 0.5559,
+    "composite_score": 0.5565,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2071,
+      "log_regression": 0.2087,
       "ma200_multiple": 0.6036,
       "rsi14": 0.7177,
       "vol_adj_momentum": 0.945
@@ -6082,14 +6082,14 @@
   {
     "date": "2024-04-16",
     "close": 2388.2,
-    "composite_score": 0.6302,
+    "composite_score": 0.6313,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.4147,
+      "log_regression": 0.4178,
       "ma200_multiple": 0.6854,
       "rsi14": 0.6842,
       "vol_adj_momentum": 0.8842
@@ -6370,14 +6370,14 @@
   {
     "date": "2024-05-04",
     "close": 2301.1,
-    "composite_score": 0.4141,
+    "composite_score": 0.4146,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.312,
+      "log_regression": 0.3135,
       "ma200_multiple": 0.5921,
       "rsi14": 0.4525,
       "vol_adj_momentum": 0.3318
@@ -6418,14 +6418,14 @@
   {
     "date": "2024-05-07",
     "close": 2320.7,
-    "composite_score": 0.4429,
+    "composite_score": 0.4435,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3333,
+      "log_regression": 0.3348,
       "ma200_multiple": 0.6136,
       "rsi14": 0.5038,
       "vol_adj_momentum": 0.3606
@@ -6562,14 +6562,14 @@
   {
     "date": "2024-05-16",
     "close": 2404.5,
-    "composite_score": 0.5323,
+    "composite_score": 0.5328,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4066,
+      "log_regression": 0.4081,
       "ma200_multiple": 0.6771,
       "rsi14": 0.6581,
       "vol_adj_momentum": 0.4454
@@ -6610,14 +6610,14 @@
   {
     "date": "2024-05-19",
     "close": 2423.6,
-    "composite_score": 0.558,
+    "composite_score": 0.5585,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4226,
+      "log_regression": 0.4241,
       "ma200_multiple": 0.6786,
       "rsi14": 0.6904,
       "vol_adj_momentum": 0.5119
@@ -6658,14 +6658,14 @@
   {
     "date": "2024-05-22",
     "close": 2350.3,
-    "composite_score": 0.4571,
+    "composite_score": 0.4577,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3319,
+      "log_regression": 0.3333,
       "ma200_multiple": 0.597,
       "rsi14": 0.4683,
       "vol_adj_momentum": 0.4904
@@ -6706,14 +6706,14 @@
   {
     "date": "2024-05-25",
     "close": 2334.2,
-    "composite_score": 0.4018,
+    "composite_score": 0.4023,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2847,
+      "log_regression": 0.2861,
       "ma200_multiple": 0.5634,
       "rsi14": 0.4333,
       "vol_adj_momentum": 0.3732
@@ -6962,14 +6962,14 @@
   {
     "date": "2024-06-10",
     "close": 2315.1,
-    "composite_score": 0.3218,
+    "composite_score": 0.3224,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1772,
+      "log_regression": 0.1787,
       "ma200_multiple": 0.4798,
       "rsi14": 0.4457,
       "vol_adj_momentum": 0.2536
@@ -6994,14 +6994,14 @@
   {
     "date": "2024-06-12",
     "close": 2305.1,
-    "composite_score": 0.3043,
+    "composite_score": 0.3048,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1437,
+      "log_regression": 0.1451,
       "ma200_multiple": 0.4684,
       "rsi14": 0.433,
       "vol_adj_momentum": 0.2514
@@ -7090,14 +7090,14 @@
   {
     "date": "2024-06-18",
     "close": 2330.0,
-    "composite_score": 0.3128,
+    "composite_score": 0.3133,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1838,
+      "log_regression": 0.1852,
       "ma200_multiple": 0.4815,
       "rsi14": 0.4953,
       "vol_adj_momentum": 0.1453
@@ -7154,14 +7154,14 @@
   {
     "date": "2024-06-22",
     "close": 2327.9,
-    "composite_score": 0.3414,
+    "composite_score": 0.3419,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1558,
+      "log_regression": 0.1572,
       "ma200_multiple": 0.4745,
       "rsi14": 0.4884,
       "vol_adj_momentum": 0.3527
@@ -7170,14 +7170,14 @@
   {
     "date": "2024-06-23",
     "close": 2329.1,
-    "composite_score": 0.342,
+    "composite_score": 0.3425,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1542,
+      "log_regression": 0.1556,
       "ma200_multiple": 0.4738,
       "rsi14": 0.4916,
       "vol_adj_momentum": 0.3564
@@ -7250,14 +7250,14 @@
   {
     "date": "2024-06-28",
     "close": 2331.0,
-    "composite_score": 0.3285,
+    "composite_score": 0.3289,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1306,
+      "log_regression": 0.132,
       "ma200_multiple": 0.4593,
       "rsi14": 0.4997,
       "vol_adj_momentum": 0.3399
@@ -7282,14 +7282,14 @@
   {
     "date": "2024-06-30",
     "close": 2335.4,
-    "composite_score": 0.352,
+    "composite_score": 0.3525,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1401,
+      "log_regression": 0.1415,
       "ma200_multiple": 0.465,
       "rsi14": 0.5134,
       "vol_adj_momentum": 0.4202
@@ -7314,14 +7314,14 @@
   {
     "date": "2024-07-02",
     "close": 2366.7,
-    "composite_score": 0.4244,
+    "composite_score": 0.4249,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2263,
+      "log_regression": 0.2277,
       "ma200_multiple": 0.5028,
       "rsi14": 0.6031,
       "vol_adj_momentum": 0.4944
@@ -7346,14 +7346,14 @@
   {
     "date": "2024-07-04",
     "close": 2386.3,
-    "composite_score": 0.4613,
+    "composite_score": 0.4618,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2688,
+      "log_regression": 0.2702,
       "ma200_multiple": 0.539,
       "rsi14": 0.6486,
       "vol_adj_momentum": 0.5139
@@ -7394,14 +7394,14 @@
   {
     "date": "2024-07-07",
     "close": 2356.1,
-    "composite_score": 0.4216,
+    "composite_score": 0.4226,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.1734,
+      "log_regression": 0.1761,
       "ma200_multiple": 0.4771,
       "rsi14": 0.526,
       "vol_adj_momentum": 0.6824
@@ -7474,14 +7474,14 @@
   {
     "date": "2024-07-12",
     "close": 2409.4,
-    "composite_score": 0.5277,
+    "composite_score": 0.5286,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2961,
+      "log_regression": 0.2989,
       "ma200_multiple": 0.5592,
       "rsi14": 0.6401,
       "vol_adj_momentum": 0.781
@@ -7522,14 +7522,14 @@
   {
     "date": "2024-07-15",
     "close": 2464.5,
-    "composite_score": 0.6172,
+    "composite_score": 0.6176,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.4019,
+      "log_regression": 0.4033,
       "ma200_multiple": 0.6543,
       "rsi14": 0.7374,
       "vol_adj_momentum": 0.8272
@@ -7602,14 +7602,14 @@
   {
     "date": "2024-07-20",
     "close": 2402.1,
-    "composite_score": 0.4491,
+    "composite_score": 0.4495,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2384,
+      "log_regression": 0.2398,
       "ma200_multiple": 0.4986,
       "rsi14": 0.5263,
       "vol_adj_momentum": 0.6785
@@ -7682,14 +7682,14 @@
   {
     "date": "2024-07-25",
     "close": 2387.6,
-    "composite_score": 0.4021,
+    "composite_score": 0.4026,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.1678,
+      "log_regression": 0.1691,
       "ma200_multiple": 0.4628,
       "rsi14": 0.489,
       "vol_adj_momentum": 0.6495
@@ -7810,14 +7810,14 @@
   {
     "date": "2024-08-02",
     "close": 2447.7,
-    "composite_score": 0.5014,
+    "composite_score": 0.5019,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3106,
+      "log_regression": 0.3119,
       "ma200_multiple": 0.5529,
       "rsi14": 0.611,
       "vol_adj_momentum": 0.6613
@@ -7890,14 +7890,14 @@
   {
     "date": "2024-08-07",
     "close": 2421.3,
-    "composite_score": 0.4163,
+    "composite_score": 0.4167,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2101,
+      "log_regression": 0.2114,
       "ma200_multiple": 0.4761,
       "rsi14": 0.5375,
       "vol_adj_momentum": 0.5811
@@ -7938,14 +7938,14 @@
   {
     "date": "2024-08-10",
     "close": 2430.4,
-    "composite_score": 0.3993,
+    "composite_score": 0.3998,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2225,
+      "log_regression": 0.2238,
       "ma200_multiple": 0.4808,
       "rsi14": 0.5533,
       "vol_adj_momentum": 0.453
@@ -7986,14 +7986,14 @@
   {
     "date": "2024-08-13",
     "close": 2462.8,
-    "composite_score": 0.4538,
+    "composite_score": 0.4543,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3021,
+      "log_regression": 0.3034,
       "ma200_multiple": 0.5264,
       "rsi14": 0.6116,
       "vol_adj_momentum": 0.471
@@ -8034,14 +8034,14 @@
   {
     "date": "2024-08-16",
     "close": 2507.4,
-    "composite_score": 0.5374,
+    "composite_score": 0.5378,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4021,
+      "log_regression": 0.4034,
       "ma200_multiple": 0.615,
       "rsi14": 0.6874,
       "vol_adj_momentum": 0.5269
@@ -8050,14 +8050,14 @@
   {
     "date": "2024-08-17",
     "close": 2515.1,
-    "composite_score": 0.5882,
+    "composite_score": 0.5886,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4121,
+      "log_regression": 0.4134,
       "ma200_multiple": 0.6168,
       "rsi14": 0.6993,
       "vol_adj_momentum": 0.7493
@@ -8162,14 +8162,14 @@
   {
     "date": "2024-08-24",
     "close": 2509.6,
-    "composite_score": 0.5604,
+    "composite_score": 0.5609,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3784,
+      "log_regression": 0.3797,
       "ma200_multiple": 0.5774,
       "rsi14": 0.6186,
       "vol_adj_momentum": 0.7997
@@ -8418,14 +8418,14 @@
   {
     "date": "2024-09-09",
     "close": 2508.4,
-    "composite_score": 0.4811,
+    "composite_score": 0.4816,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2815,
+      "log_regression": 0.2828,
       "ma200_multiple": 0.4701,
       "rsi14": 0.5712,
       "vol_adj_momentum": 0.7541
@@ -8434,14 +8434,14 @@
   {
     "date": "2024-09-10",
     "close": 2513.8,
-    "composite_score": 0.4773,
+    "composite_score": 0.4782,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2952,
+      "log_regression": 0.2977,
       "ma200_multiple": 0.4733,
       "rsi14": 0.5901,
       "vol_adj_momentum": 0.6883
@@ -8562,14 +8562,14 @@
   {
     "date": "2024-09-18",
     "close": 2587.5,
-    "composite_score": 0.5929,
+    "composite_score": 0.5933,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4496,
+      "log_regression": 0.4509,
       "ma200_multiple": 0.6096,
       "rsi14": 0.7053,
       "vol_adj_momentum": 0.7103
@@ -8738,14 +8738,14 @@
   {
     "date": "2024-09-29",
     "close": 2633.8,
-    "composite_score": 0.6202,
+    "composite_score": 0.6207,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.4733,
+      "log_regression": 0.4745,
       "ma200_multiple": 0.6273,
       "rsi14": 0.6316,
       "vol_adj_momentum": 0.8571
@@ -8802,14 +8802,14 @@
   {
     "date": "2024-10-03",
     "close": 2648.6,
-    "composite_score": 0.6288,
+    "composite_score": 0.6293,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.4821,
+      "log_regression": 0.4833,
       "ma200_multiple": 0.6378,
       "rsi14": 0.6293,
       "vol_adj_momentum": 0.8739
@@ -8882,14 +8882,14 @@
   {
     "date": "2024-10-08",
     "close": 2613.4,
-    "composite_score": 0.5327,
+    "composite_score": 0.5331,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4165,
+      "log_regression": 0.4177,
       "ma200_multiple": 0.5184,
       "rsi14": 0.4905,
       "vol_adj_momentum": 0.7961
@@ -8898,14 +8898,14 @@
   {
     "date": "2024-10-09",
     "close": 2628.3,
-    "composite_score": 0.5614,
+    "composite_score": 0.5618,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.438,
+      "log_regression": 0.4393,
       "ma200_multiple": 0.5607,
       "rsi14": 0.5369,
       "vol_adj_momentum": 0.8025
@@ -8962,14 +8962,14 @@
   {
     "date": "2024-10-13",
     "close": 2646.6,
-    "composite_score": 0.5543,
+    "composite_score": 0.5547,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.453,
+      "log_regression": 0.4542,
       "ma200_multiple": 0.5739,
       "rsi14": 0.5691,
       "vol_adj_momentum": 0.6923
@@ -9042,14 +9042,14 @@
   {
     "date": "2024-10-18",
     "close": 2719.7,
-    "composite_score": 0.6733,
+    "composite_score": 0.6738,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.5303,
+      "log_regression": 0.5316,
       "ma200_multiple": 0.7015,
       "rsi14": 0.7268,
       "vol_adj_momentum": 0.835
@@ -9314,14 +9314,14 @@
   {
     "date": "2024-11-04",
     "close": 2743.7,
-    "composite_score": 0.6033,
+    "composite_score": 0.6037,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.5089,
+      "log_regression": 0.5101,
       "ma200_multiple": 0.6742,
       "rsi14": 0.5805,
       "vol_adj_momentum": 0.7027
@@ -9362,14 +9362,14 @@
   {
     "date": "2024-11-07",
     "close": 2693.1,
-    "composite_score": 0.5012,
+    "composite_score": 0.5016,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4348,
+      "log_regression": 0.436,
       "ma200_multiple": 0.5427,
       "rsi14": 0.4422,
       "vol_adj_momentum": 0.6244
@@ -9378,14 +9378,14 @@
   {
     "date": "2024-11-08",
     "close": 2682.6,
-    "composite_score": 0.4621,
+    "composite_score": 0.4626,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4154,
+      "log_regression": 0.4166,
       "ma200_multiple": 0.5018,
       "rsi14": 0.4205,
       "vol_adj_momentum": 0.5361
@@ -9474,14 +9474,14 @@
   {
     "date": "2024-11-14",
     "close": 2575.7,
-    "composite_score": 0.184,
+    "composite_score": 0.1844,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.094,
+      "log_regression": 0.0952,
       "ma200_multiple": 0.2832,
       "rsi14": 0.2675,
       "vol_adj_momentum": 0.134
@@ -9522,14 +9522,14 @@
   {
     "date": "2024-11-17",
     "close": 2615.9,
-    "composite_score": 0.2658,
+    "composite_score": 0.2667,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1991,
+      "log_regression": 0.2014,
       "ma200_multiple": 0.3501,
       "rsi14": 0.4108,
       "vol_adj_momentum": 0.1323
@@ -9554,14 +9554,14 @@
   {
     "date": "2024-11-19",
     "close": 2647.9,
-    "composite_score": 0.3283,
+    "composite_score": 0.3287,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2804,
+      "log_regression": 0.2815,
       "ma200_multiple": 0.3925,
       "rsi14": 0.4863,
       "vol_adj_momentum": 0.1741
@@ -9570,14 +9570,14 @@
   {
     "date": "2024-11-20",
     "close": 2668.2,
-    "composite_score": 0.3686,
+    "composite_score": 0.3694,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.3337,
+      "log_regression": 0.3361,
       "ma200_multiple": 0.4294,
       "rsi14": 0.5286,
       "vol_adj_momentum": 0.1937
@@ -9634,14 +9634,14 @@
   {
     "date": "2024-11-24",
     "close": 2645.2,
-    "composite_score": 0.2983,
+    "composite_score": 0.2987,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2416,
+      "log_regression": 0.2427,
       "ma200_multiple": 0.3751,
       "rsi14": 0.4641,
       "vol_adj_momentum": 0.1359
@@ -9698,14 +9698,14 @@
   {
     "date": "2024-11-28",
     "close": 2659.5,
-    "composite_score": 0.3118,
+    "composite_score": 0.3122,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2601,
+      "log_regression": 0.2613,
       "ma200_multiple": 0.3873,
       "rsi14": 0.4973,
       "vol_adj_momentum": 0.1225
@@ -9714,14 +9714,14 @@
   {
     "date": "2024-11-29",
     "close": 2651.4,
-    "composite_score": 0.3062,
+    "composite_score": 0.3066,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2333,
+      "log_regression": 0.2344,
       "ma200_multiple": 0.3753,
       "rsi14": 0.4806,
       "vol_adj_momentum": 0.1732
@@ -9730,14 +9730,14 @@
   {
     "date": "2024-11-30",
     "close": 2652.0,
-    "composite_score": 0.3023,
+    "composite_score": 0.3027,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2238,
+      "log_regression": 0.2249,
       "ma200_multiple": 0.3737,
       "rsi14": 0.482,
       "vol_adj_momentum": 0.1707
@@ -9778,14 +9778,14 @@
   {
     "date": "2024-12-03",
     "close": 2655.5,
-    "composite_score": 0.3053,
+    "composite_score": 0.3057,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2172,
+      "log_regression": 0.2184,
       "ma200_multiple": 0.3747,
       "rsi14": 0.4951,
       "vol_adj_momentum": 0.1828
@@ -9794,14 +9794,14 @@
   {
     "date": "2024-12-04",
     "close": 2640.0,
-    "composite_score": 0.2644,
+    "composite_score": 0.2648,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1676,
+      "log_regression": 0.1688,
       "ma200_multiple": 0.3364,
       "rsi14": 0.4567,
       "vol_adj_momentum": 0.1515
@@ -9810,14 +9810,14 @@
   {
     "date": "2024-12-05",
     "close": 2637.5,
-    "composite_score": 0.2786,
+    "composite_score": 0.279,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1571,
+      "log_regression": 0.1583,
       "ma200_multiple": 0.3303,
       "rsi14": 0.4506,
       "vol_adj_momentum": 0.2546
@@ -9826,14 +9826,14 @@
   {
     "date": "2024-12-06",
     "close": 2635.1,
-    "composite_score": 0.2542,
+    "composite_score": 0.2555,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1386,
+      "log_regression": 0.142,
       "ma200_multiple": 0.3207,
       "rsi14": 0.4445,
       "vol_adj_momentum": 0.1833
@@ -9842,14 +9842,14 @@
   {
     "date": "2024-12-07",
     "close": 2637.0,
-    "composite_score": 0.2663,
+    "composite_score": 0.2671,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1384,
+      "log_regression": 0.1407,
       "ma200_multiple": 0.3249,
       "rsi14": 0.4508,
       "vol_adj_momentum": 0.2323
@@ -9874,14 +9874,14 @@
   {
     "date": "2024-12-09",
     "close": 2690.8,
-    "composite_score": 0.4066,
+    "composite_score": 0.407,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3025,
+      "log_regression": 0.3037,
       "ma200_multiple": 0.4281,
       "rsi14": 0.5952,
       "vol_adj_momentum": 0.3733
@@ -9890,14 +9890,14 @@
   {
     "date": "2024-12-10",
     "close": 2714.0,
-    "composite_score": 0.5069,
+    "composite_score": 0.5073,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3694,
+      "log_regression": 0.3706,
       "ma200_multiple": 0.4629,
       "rsi14": 0.6413,
       "vol_adj_momentum": 0.6682
@@ -9906,14 +9906,14 @@
   {
     "date": "2024-12-11",
     "close": 2709.0,
-    "composite_score": 0.4974,
+    "composite_score": 0.4982,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3405,
+      "log_regression": 0.3428,
       "ma200_multiple": 0.4544,
       "rsi14": 0.6248,
       "vol_adj_momentum": 0.6982
@@ -9922,14 +9922,14 @@
   {
     "date": "2024-12-12",
     "close": 2671.0,
-    "composite_score": 0.3867,
+    "composite_score": 0.3871,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2127,
+      "log_regression": 0.2139,
       "ma200_multiple": 0.38,
       "rsi14": 0.5161,
       "vol_adj_momentum": 0.57
@@ -9938,14 +9938,14 @@
   {
     "date": "2024-12-13",
     "close": 2661.9,
-    "composite_score": 0.3761,
+    "composite_score": 0.3764,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1841,
+      "log_regression": 0.1852,
       "ma200_multiple": 0.3523,
       "rsi14": 0.4939,
       "vol_adj_momentum": 0.6239
@@ -9986,14 +9986,14 @@
   {
     "date": "2024-12-16",
     "close": 2659.1,
-    "composite_score": 0.3665,
+    "composite_score": 0.3669,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1574,
+      "log_regression": 0.1586,
       "ma200_multiple": 0.3352,
       "rsi14": 0.4855,
       "vol_adj_momentum": 0.6523
@@ -10018,14 +10018,14 @@
   {
     "date": "2024-12-18",
     "close": 2604.7,
-    "composite_score": 0.2075,
+    "composite_score": 0.2079,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.0667,
+      "log_regression": 0.0678,
       "ma200_multiple": 0.2124,
       "rsi14": 0.3613,
       "vol_adj_momentum": 0.2938
@@ -10130,14 +10130,14 @@
   {
     "date": "2024-12-25",
     "close": 2639.5,
-    "composite_score": 0.267,
+    "composite_score": 0.2674,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.083,
+      "log_regression": 0.0841,
       "ma200_multiple": 0.2791,
       "rsi14": 0.4779,
       "vol_adj_momentum": 0.3632
@@ -10338,14 +10338,14 @@
   {
     "date": "2025-01-07",
     "close": 2638.7,
-    "composite_score": 0.2226,
+    "composite_score": 0.223,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.0641,
+      "log_regression": 0.0652,
       "ma200_multiple": 0.2177,
       "rsi14": 0.4999,
       "vol_adj_momentum": 0.2287
@@ -10370,14 +10370,14 @@
   {
     "date": "2025-01-09",
     "close": 2667.8,
-    "composite_score": 0.2636,
+    "composite_score": 0.2643,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.0926,
+      "log_regression": 0.0948,
       "ma200_multiple": 0.2977,
       "rsi14": 0.5929,
       "vol_adj_momentum": 0.1907
@@ -10466,14 +10466,14 @@
   {
     "date": "2025-01-15",
     "close": 2678.6,
-    "composite_score": 0.3203,
+    "composite_score": 0.3206,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.0964,
+      "log_regression": 0.0975,
       "ma200_multiple": 0.3023,
       "rsi14": 0.6013,
       "vol_adj_momentum": 0.4535
@@ -10546,14 +10546,14 @@
   {
     "date": "2025-01-20",
     "close": 2716.9,
-    "composite_score": 0.429,
+    "composite_score": 0.4298,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.1416,
+      "log_regression": 0.1438,
       "ma200_multiple": 0.3606,
       "rsi14": 0.6786,
       "vol_adj_momentum": 0.768
@@ -10562,14 +10562,14 @@
   {
     "date": "2025-01-21",
     "close": 2730.9,
-    "composite_score": 0.4681,
+    "composite_score": 0.4692,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.1861,
+      "log_regression": 0.1893,
       "ma200_multiple": 0.3885,
       "rsi14": 0.7056,
       "vol_adj_momentum": 0.8237
@@ -10594,14 +10594,14 @@
   {
     "date": "2025-01-23",
     "close": 2765.8,
-    "composite_score": 0.5417,
+    "composite_score": 0.542,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2834,
+      "log_regression": 0.2845,
       "ma200_multiple": 0.4517,
       "rsi14": 0.7618,
       "vol_adj_momentum": 0.886
@@ -10610,14 +10610,14 @@
   {
     "date": "2025-01-24",
     "close": 2768.8,
-    "composite_score": 0.5412,
+    "composite_score": 0.542,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.2885,
+      "log_regression": 0.2907,
       "ma200_multiple": 0.4523,
       "rsi14": 0.7661,
       "vol_adj_momentum": 0.8698
@@ -10642,14 +10642,14 @@
   {
     "date": "2025-01-26",
     "close": 2730.9,
-    "composite_score": 0.422,
+    "composite_score": 0.4228,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.1494,
+      "log_regression": 0.1515,
       "ma200_multiple": 0.3658,
       "rsi14": 0.6091,
       "vol_adj_momentum": 0.7825
@@ -10658,14 +10658,14 @@
   {
     "date": "2025-01-27",
     "close": 2743.6,
-    "composite_score": 0.4566,
+    "composite_score": 0.4573,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.1924,
+      "log_regression": 0.1946,
       "ma200_multiple": 0.3914,
       "rsi14": 0.6364,
       "vol_adj_momentum": 0.8205
@@ -10674,14 +10674,14 @@
   {
     "date": "2025-01-28",
     "close": 2744.7,
-    "composite_score": 0.4619,
+    "composite_score": 0.4623,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.1847,
+      "log_regression": 0.1857,
       "ma200_multiple": 0.3877,
       "rsi14": 0.6388,
       "vol_adj_momentum": 0.8629
@@ -10738,14 +10738,14 @@
   {
     "date": "2025-02-01",
     "close": 2796.1,
-    "composite_score": 0.5499,
+    "composite_score": 0.5502,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3226,
+      "log_regression": 0.3237,
       "ma200_multiple": 0.4796,
       "rsi14": 0.7004,
       "vol_adj_momentum": 0.8849
@@ -10770,14 +10770,14 @@
   {
     "date": "2025-02-03",
     "close": 2822.3,
-    "composite_score": 0.5993,
+    "composite_score": 0.5996,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3873,
+      "log_regression": 0.3884,
       "ma200_multiple": 0.5204,
       "rsi14": 0.7399,
       "vol_adj_momentum": 0.9281
@@ -10786,14 +10786,14 @@
   {
     "date": "2025-02-04",
     "close": 2883.7,
-    "composite_score": 0.6912,
+    "composite_score": 0.6916,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.4984,
+      "log_regression": 0.4995,
       "ma200_multiple": 0.6559,
       "rsi14": 0.8067,
       "vol_adj_momentum": 0.9571
@@ -10850,14 +10850,14 @@
   {
     "date": "2025-02-08",
     "close": 2861.0,
-    "composite_score": 0.6097,
+    "composite_score": 0.61,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.444,
+      "log_regression": 0.445,
       "ma200_multiple": 0.5934,
       "rsi14": 0.6706,
       "vol_adj_momentum": 0.8591
@@ -10898,14 +10898,14 @@
   {
     "date": "2025-02-11",
     "close": 2892.2,
-    "composite_score": 0.6541,
+    "composite_score": 0.6545,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.4872,
+      "log_regression": 0.4883,
       "ma200_multiple": 0.6372,
       "rsi14": 0.6786,
       "vol_adj_momentum": 0.9426
@@ -10930,14 +10930,14 @@
   {
     "date": "2025-02-13",
     "close": 2905.0,
-    "composite_score": 0.6553,
+    "composite_score": 0.6556,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.5,
+      "log_regression": 0.5011,
       "ma200_multiple": 0.6454,
       "rsi14": 0.6699,
       "vol_adj_momentum": 0.9246
@@ -10962,14 +10962,14 @@
   {
     "date": "2025-02-15",
     "close": 2880.5,
-    "composite_score": 0.5934,
+    "composite_score": 0.5938,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4523,
+      "log_regression": 0.4534,
       "ma200_multiple": 0.59,
       "rsi14": 0.6106,
       "vol_adj_momentum": 0.8273
@@ -10978,14 +10978,14 @@
   {
     "date": "2025-02-16",
     "close": 2898.1,
-    "composite_score": 0.6236,
+    "composite_score": 0.6239,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.4836,
+      "log_regression": 0.4847,
       "ma200_multiple": 0.6212,
       "rsi14": 0.6369,
       "vol_adj_momentum": 0.8582
@@ -10994,14 +10994,14 @@
   {
     "date": "2025-02-17",
     "close": 2917.4,
-    "composite_score": 0.6475,
+    "composite_score": 0.6478,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.5063,
+      "log_regression": 0.5074,
       "ma200_multiple": 0.6533,
       "rsi14": 0.6637,
       "vol_adj_momentum": 0.871
@@ -11042,14 +11042,14 @@
   {
     "date": "2025-02-20",
     "close": 2928.8,
-    "composite_score": 0.6448,
+    "composite_score": 0.6452,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.5121,
+      "log_regression": 0.5132,
       "ma200_multiple": 0.6628,
       "rsi14": 0.6679,
       "vol_adj_momentum": 0.8314
@@ -11074,14 +11074,14 @@
   {
     "date": "2025-02-22",
     "close": 2934.3,
-    "composite_score": 0.6372,
+    "composite_score": 0.6376,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.5142,
+      "log_regression": 0.5152,
       "ma200_multiple": 0.6593,
       "rsi14": 0.6683,
       "vol_adj_momentum": 0.7939
@@ -11090,14 +11090,14 @@
   {
     "date": "2025-02-23",
     "close": 2934.5,
-    "composite_score": 0.6316,
+    "composite_score": 0.6319,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.5084,
+      "log_regression": 0.5095,
       "ma200_multiple": 0.6502,
       "rsi14": 0.6686,
       "vol_adj_momentum": 0.7868
@@ -11106,14 +11106,14 @@
   {
     "date": "2025-02-24",
     "close": 2911.1,
-    "composite_score": 0.5823,
+    "composite_score": 0.5826,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.468,
+      "log_regression": 0.469,
       "ma200_multiple": 0.5971,
       "rsi14": 0.5936,
       "vol_adj_momentum": 0.7524
@@ -11298,14 +11298,14 @@
   {
     "date": "2025-03-08",
     "close": 2908.9,
-    "composite_score": 0.4726,
+    "composite_score": 0.4729,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4187,
+      "log_regression": 0.4197,
       "ma200_multiple": 0.515,
       "rsi14": 0.5709,
       "vol_adj_momentum": 0.4155
@@ -11362,14 +11362,14 @@
   {
     "date": "2025-03-12",
     "close": 2968.3,
-    "composite_score": 0.6011,
+    "composite_score": 0.6015,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.5129,
+      "log_regression": 0.5139,
       "ma200_multiple": 0.645,
       "rsi14": 0.6908,
       "vol_adj_momentum": 0.6109
@@ -11522,14 +11522,14 @@
   {
     "date": "2025-03-22",
     "close": 3025.1,
-    "composite_score": 0.6471,
+    "composite_score": 0.6475,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.5577,
+      "log_regression": 0.5587,
       "ma200_multiple": 0.714,
       "rsi14": 0.6787,
       "vol_adj_momentum": 0.6885
@@ -11602,14 +11602,14 @@
   {
     "date": "2025-03-27",
     "close": 3095.7,
-    "composite_score": 0.7373,
+    "composite_score": 0.7377,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.6209,
+      "log_regression": 0.622,
       "ma200_multiple": 0.7713,
       "rsi14": 0.7759,
       "vol_adj_momentum": 0.8598
@@ -11730,14 +11730,14 @@
   {
     "date": "2025-04-04",
     "close": 3042.5,
-    "composite_score": 0.5913,
+    "composite_score": 0.5917,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5444,
+      "log_regression": 0.5454,
       "ma200_multiple": 0.6452,
       "rsi14": 0.4989,
       "vol_adj_momentum": 0.6986
@@ -11762,14 +11762,14 @@
   {
     "date": "2025-04-06",
     "close": 2998.6,
-    "composite_score": 0.4984,
+    "composite_score": 0.4988,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4598,
+      "log_regression": 0.4608,
       "ma200_multiple": 0.5342,
       "rsi14": 0.4262,
       "vol_adj_momentum": 0.5936
@@ -11826,14 +11826,14 @@
   {
     "date": "2025-04-10",
     "close": 3271.1,
-    "composite_score": 0.7651,
+    "composite_score": 0.7655,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7084,
+      "log_regression": 0.7094,
       "ma200_multiple": 0.8006,
       "rsi14": 0.7294,
       "vol_adj_momentum": 0.8557
@@ -11858,14 +11858,14 @@
   {
     "date": "2025-04-12",
     "close": 3243.7,
-    "composite_score": 0.7259,
+    "composite_score": 0.7263,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.678,
+      "log_regression": 0.679,
       "ma200_multiple": 0.797,
       "rsi14": 0.6868,
       "vol_adj_momentum": 0.76
@@ -11938,14 +11938,14 @@
   {
     "date": "2025-04-17",
     "close": 3358.7,
-    "composite_score": 0.7702,
+    "composite_score": 0.7705,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7602,
+      "log_regression": 0.7612,
       "ma200_multiple": 0.802,
       "rsi14": 0.725,
       "vol_adj_momentum": 0.793
@@ -11954,14 +11954,14 @@
   {
     "date": "2025-04-18",
     "close": 3349.0,
-    "composite_score": 0.7577,
+    "composite_score": 0.758,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7485,
+      "log_regression": 0.7495,
       "ma200_multiple": 0.8002,
       "rsi14": 0.7097,
       "vol_adj_momentum": 0.7684
@@ -11970,14 +11970,14 @@
   {
     "date": "2025-04-19",
     "close": 3343.3,
-    "composite_score": 0.7593,
+    "composite_score": 0.76,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7398,
+      "log_regression": 0.7418,
       "ma200_multiple": 0.7994,
       "rsi14": 0.7004,
       "vol_adj_momentum": 0.8024
@@ -11986,14 +11986,14 @@
   {
     "date": "2025-04-20",
     "close": 3364.9,
-    "composite_score": 0.7713,
+    "composite_score": 0.7716,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7589,
+      "log_regression": 0.7599,
       "ma200_multiple": 0.8016,
       "rsi14": 0.7157,
       "vol_adj_momentum": 0.8105
@@ -12002,14 +12002,14 @@
   {
     "date": "2025-04-21",
     "close": 3462.5,
-    "composite_score": 0.8351,
+    "composite_score": 0.8355,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.8741,
+      "log_regression": 0.8751,
       "ma200_multiple": 0.8028,
       "rsi14": 0.7722,
       "vol_adj_momentum": 0.8702
@@ -12050,14 +12050,14 @@
   {
     "date": "2025-04-24",
     "close": 3364.0,
-    "composite_score": 0.7366,
+    "composite_score": 0.737,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.748,
+      "log_regression": 0.749,
       "ma200_multiple": 0.7974,
       "rsi14": 0.6253,
       "vol_adj_momentum": 0.752
@@ -12066,14 +12066,14 @@
   {
     "date": "2025-04-25",
     "close": 3315.3,
-    "composite_score": 0.6934,
+    "composite_score": 0.6937,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.7088,
+      "log_regression": 0.7098,
       "ma200_multiple": 0.7917,
       "rsi14": 0.5686,
       "vol_adj_momentum": 0.6683
@@ -12098,14 +12098,14 @@
   {
     "date": "2025-04-27",
     "close": 3308.2,
-    "composite_score": 0.6692,
+    "composite_score": 0.6695,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.6966,
+      "log_regression": 0.6975,
       "ma200_multiple": 0.7882,
       "rsi14": 0.5595,
       "vol_adj_momentum": 0.5823
@@ -12130,14 +12130,14 @@
   {
     "date": "2025-04-29",
     "close": 3318.6,
-    "composite_score": 0.662,
+    "composite_score": 0.6623,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.7021,
+      "log_regression": 0.703,
       "ma200_multiple": 0.7876,
       "rsi14": 0.562,
       "vol_adj_momentum": 0.5349
@@ -12242,14 +12242,14 @@
   {
     "date": "2025-05-06",
     "close": 3407.4,
-    "composite_score": 0.7635,
+    "composite_score": 0.7639,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7656,
+      "log_regression": 0.7666,
       "ma200_multiple": 0.7988,
       "rsi14": 0.6483,
       "vol_adj_momentum": 0.8311
@@ -12274,14 +12274,14 @@
   {
     "date": "2025-05-08",
     "close": 3318.8,
-    "composite_score": 0.6667,
+    "composite_score": 0.667,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.6764,
+      "log_regression": 0.6774,
       "ma200_multiple": 0.7768,
       "rsi14": 0.5325,
       "vol_adj_momentum": 0.6462
@@ -12290,14 +12290,14 @@
   {
     "date": "2025-05-09",
     "close": 3329.7,
-    "composite_score": 0.6566,
+    "composite_score": 0.6569,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.6884,
+      "log_regression": 0.6894,
       "ma200_multiple": 0.779,
       "rsi14": 0.5436,
       "vol_adj_momentum": 0.5609
@@ -12386,14 +12386,14 @@
   {
     "date": "2025-05-15",
     "close": 3239.7,
-    "composite_score": 0.5322,
+    "composite_score": 0.5325,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.6292,
+      "log_regression": 0.6302,
       "ma200_multiple": 0.7231,
       "rsi14": 0.4583,
       "vol_adj_momentum": 0.1975
@@ -12418,14 +12418,14 @@
   {
     "date": "2025-05-17",
     "close": 3210.0,
-    "composite_score": 0.4952,
+    "composite_score": 0.4955,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5923,
+      "log_regression": 0.5932,
       "ma200_multiple": 0.6879,
       "rsi14": 0.4308,
       "vol_adj_momentum": 0.1488
@@ -12434,14 +12434,14 @@
   {
     "date": "2025-05-18",
     "close": 3238.3,
-    "composite_score": 0.528,
+    "composite_score": 0.5283,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.6216,
+      "log_regression": 0.6226,
       "ma200_multiple": 0.7153,
       "rsi14": 0.4667,
       "vol_adj_momentum": 0.1911
@@ -12450,14 +12450,14 @@
   {
     "date": "2025-05-19",
     "close": 3223.6,
-    "composite_score": 0.5109,
+    "composite_score": 0.5116,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.6027,
+      "log_regression": 0.6046,
       "ma200_multiple": 0.6972,
       "rsi14": 0.4508,
       "vol_adj_momentum": 0.1774
@@ -12514,14 +12514,14 @@
   {
     "date": "2025-05-23",
     "close": 3352.7,
-    "composite_score": 0.6193,
+    "composite_score": 0.6197,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.6744,
+      "log_regression": 0.6753,
       "ma200_multiple": 0.7752,
       "rsi14": 0.5883,
       "vol_adj_momentum": 0.3593
@@ -12834,14 +12834,14 @@
   {
     "date": "2025-06-12",
     "close": 3392.9,
-    "composite_score": 0.666,
+    "composite_score": 0.667,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.6701,
+      "log_regression": 0.673,
       "ma200_multiple": 0.7531,
       "rsi14": 0.6045,
       "vol_adj_momentum": 0.6117
@@ -12866,14 +12866,14 @@
   {
     "date": "2025-06-14",
     "close": 3465.9,
-    "composite_score": 0.7437,
+    "composite_score": 0.7441,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7347,
+      "log_regression": 0.7357,
       "ma200_multiple": 0.7883,
       "rsi14": 0.6781,
       "vol_adj_momentum": 0.7695
@@ -12898,14 +12898,14 @@
   {
     "date": "2025-06-16",
     "close": 3406.4,
-    "composite_score": 0.6819,
+    "composite_score": 0.6822,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.6723,
+      "log_regression": 0.6732,
       "ma200_multiple": 0.7474,
       "rsi14": 0.5746,
       "vol_adj_momentum": 0.7239
@@ -12930,14 +12930,14 @@
   {
     "date": "2025-06-18",
     "close": 3377.1,
-    "composite_score": 0.6441,
+    "composite_score": 0.6444,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.6448,
+      "log_regression": 0.6457,
       "ma200_multiple": 0.7245,
       "rsi14": 0.5295,
       "vol_adj_momentum": 0.657
@@ -13026,14 +13026,14 @@
   {
     "date": "2025-06-24",
     "close": 3325.6,
-    "composite_score": 0.5056,
+    "composite_score": 0.5062,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5983,
+      "log_regression": 0.6002,
       "ma200_multiple": 0.5909,
       "rsi14": 0.4384,
       "vol_adj_momentum": 0.3038
@@ -13058,14 +13058,14 @@
   {
     "date": "2025-06-26",
     "close": 3318.9,
-    "composite_score": 0.5057,
+    "composite_score": 0.506,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.586,
+      "log_regression": 0.587,
       "ma200_multiple": 0.5674,
       "rsi14": 0.4318,
       "vol_adj_momentum": 0.3619
@@ -13090,14 +13090,14 @@
   {
     "date": "2025-06-28",
     "close": 3276.7,
-    "composite_score": 0.4276,
+    "composite_score": 0.4283,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5404,
+      "log_regression": 0.5422,
       "ma200_multiple": 0.4605,
       "rsi14": 0.3726,
       "vol_adj_momentum": 0.2442
@@ -13138,14 +13138,14 @@
   {
     "date": "2025-07-01",
     "close": 3337.3,
-    "composite_score": 0.5316,
+    "composite_score": 0.5319,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5907,
+      "log_regression": 0.5917,
       "ma200_multiple": 0.5741,
       "rsi14": 0.5002,
       "vol_adj_momentum": 0.4065
@@ -13170,14 +13170,14 @@
   {
     "date": "2025-07-03",
     "close": 3328.8,
-    "composite_score": 0.4873,
+    "composite_score": 0.4877,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5776,
+      "log_regression": 0.5786,
       "ma200_multiple": 0.549,
       "rsi14": 0.4845,
       "vol_adj_momentum": 0.2551
@@ -13186,14 +13186,14 @@
   {
     "date": "2025-07-04",
     "close": 3338.3,
-    "composite_score": 0.4922,
+    "composite_score": 0.4925,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5863,
+      "log_regression": 0.5873,
       "ma200_multiple": 0.5586,
       "rsi14": 0.5021,
       "vol_adj_momentum": 0.2345
@@ -13202,14 +13202,14 @@
   {
     "date": "2025-07-05",
     "close": 3336.1,
-    "composite_score": 0.4916,
+    "composite_score": 0.4919,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5793,
+      "log_regression": 0.5803,
       "ma200_multiple": 0.548,
       "rsi14": 0.4979,
       "vol_adj_momentum": 0.2611
@@ -13218,14 +13218,14 @@
   {
     "date": "2025-07-06",
     "close": 3327.0,
-    "composite_score": 0.4969,
+    "composite_score": 0.4973,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5613,
+      "log_regression": 0.5622,
       "ma200_multiple": 0.518,
       "rsi14": 0.4798,
       "vol_adj_momentum": 0.3751
@@ -13234,14 +13234,14 @@
   {
     "date": "2025-07-07",
     "close": 3331.4,
-    "composite_score": 0.5043,
+    "composite_score": 0.5046,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5645,
+      "log_regression": 0.5654,
       "ma200_multiple": 0.5193,
       "rsi14": 0.4895,
       "vol_adj_momentum": 0.395
@@ -13330,14 +13330,14 @@
   {
     "date": "2025-07-13",
     "close": 3358.0,
-    "composite_score": 0.4747,
+    "composite_score": 0.4753,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.587,
+      "log_regression": 0.5888,
       "ma200_multiple": 0.5321,
       "rsi14": 0.5546,
       "vol_adj_momentum": 0.1264
@@ -13378,14 +13378,14 @@
   {
     "date": "2025-07-16",
     "close": 3342.0,
-    "composite_score": 0.4393,
+    "composite_score": 0.4396,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5516,
+      "log_regression": 0.5525,
       "ma200_multiple": 0.4557,
       "rsi14": 0.5144,
       "vol_adj_momentum": 0.147
@@ -13426,14 +13426,14 @@
   {
     "date": "2025-07-19",
     "close": 3349.3,
-    "composite_score": 0.4628,
+    "composite_score": 0.4632,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5519,
+      "log_regression": 0.5528,
       "ma200_multiple": 0.4463,
       "rsi14": 0.5328,
       "vol_adj_momentum": 0.2577
@@ -13442,14 +13442,14 @@
   {
     "date": "2025-07-20",
     "close": 3345.9,
-    "composite_score": 0.4489,
+    "composite_score": 0.4492,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5487,
+      "log_regression": 0.5496,
       "ma200_multiple": 0.4295,
       "rsi14": 0.5225,
       "vol_adj_momentum": 0.2247
@@ -13458,14 +13458,14 @@
   {
     "date": "2025-07-21",
     "close": 3391.0,
-    "composite_score": 0.5463,
+    "composite_score": 0.5466,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.6045,
+      "log_regression": 0.6055,
       "ma200_multiple": 0.5382,
       "rsi14": 0.6254,
       "vol_adj_momentum": 0.3755
@@ -13522,14 +13522,14 @@
   {
     "date": "2025-07-25",
     "close": 3342.5,
-    "composite_score": 0.4507,
+    "composite_score": 0.4516,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5281,
+      "log_regression": 0.5308,
       "ma200_multiple": 0.3931,
       "rsi14": 0.4811,
       "vol_adj_momentum": 0.3569
@@ -13538,14 +13538,14 @@
   {
     "date": "2025-07-26",
     "close": 3345.1,
-    "composite_score": 0.4673,
+    "composite_score": 0.4679,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5294,
+      "log_regression": 0.5312,
       "ma200_multiple": 0.3919,
       "rsi14": 0.4868,
       "vol_adj_momentum": 0.4335
@@ -13650,14 +13650,14 @@
   {
     "date": "2025-08-02",
     "close": 3359.3,
-    "composite_score": 0.474,
+    "composite_score": 0.4743,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5261,
+      "log_regression": 0.527,
       "ma200_multiple": 0.3777,
       "rsi14": 0.5358,
       "vol_adj_momentum": 0.4415
@@ -13666,14 +13666,14 @@
   {
     "date": "2025-08-03",
     "close": 3359.1,
-    "composite_score": 0.4655,
+    "composite_score": 0.4658,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5229,
+      "log_regression": 0.5238,
       "ma200_multiple": 0.3702,
       "rsi14": 0.5353,
       "vol_adj_momentum": 0.4142
@@ -13682,14 +13682,14 @@
   {
     "date": "2025-08-04",
     "close": 3376.1,
-    "composite_score": 0.4983,
+    "composite_score": 0.4986,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5449,
+      "log_regression": 0.5458,
       "ma200_multiple": 0.395,
       "rsi14": 0.5675,
       "vol_adj_momentum": 0.4767
@@ -13778,14 +13778,14 @@
   {
     "date": "2025-08-10",
     "close": 3385.7,
-    "composite_score": 0.4891,
+    "composite_score": 0.4894,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5357,
+      "log_regression": 0.5366,
       "ma200_multiple": 0.3732,
       "rsi14": 0.5736,
       "vol_adj_momentum": 0.4679
@@ -13826,14 +13826,14 @@
   {
     "date": "2025-08-13",
     "close": 3360.7,
-    "composite_score": 0.4319,
+    "composite_score": 0.4322,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4924,
+      "log_regression": 0.4933,
       "ma200_multiple": 0.3188,
       "rsi14": 0.5076,
       "vol_adj_momentum": 0.3918
@@ -13874,14 +13874,14 @@
   {
     "date": "2025-08-16",
     "close": 3340.6,
-    "composite_score": 0.3909,
+    "composite_score": 0.3912,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.4574,
+      "log_regression": 0.4583,
       "ma200_multiple": 0.2691,
       "rsi14": 0.4623,
       "vol_adj_momentum": 0.3552
@@ -13890,14 +13890,14 @@
   {
     "date": "2025-08-17",
     "close": 3328.4,
-    "composite_score": 0.3588,
+    "composite_score": 0.3591,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.4357,
+      "log_regression": 0.4366,
       "ma200_multiple": 0.252,
       "rsi14": 0.4325,
       "vol_adj_momentum": 0.2839
@@ -13938,14 +13938,14 @@
   {
     "date": "2025-08-20",
     "close": 3347.5,
-    "composite_score": 0.3664,
+    "composite_score": 0.3667,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.4522,
+      "log_regression": 0.4531,
       "ma200_multiple": 0.2637,
       "rsi14": 0.4978,
       "vol_adj_momentum": 0.2133
@@ -13970,14 +13970,14 @@
   {
     "date": "2025-08-22",
     "close": 3370.3,
-    "composite_score": 0.4109,
+    "composite_score": 0.4112,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4841,
+      "log_regression": 0.485,
       "ma200_multiple": 0.2977,
       "rsi14": 0.5545,
       "vol_adj_momentum": 0.2809
@@ -14018,14 +14018,14 @@
   {
     "date": "2025-08-25",
     "close": 3352.3,
-    "composite_score": 0.3919,
+    "composite_score": 0.3922,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.4405,
+      "log_regression": 0.4414,
       "ma200_multiple": 0.2546,
       "rsi14": 0.5011,
       "vol_adj_momentum": 0.3692
@@ -14098,14 +14098,14 @@
   {
     "date": "2025-08-30",
     "close": 3457.6,
-    "composite_score": 0.606,
+    "composite_score": 0.6063,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.5684,
+      "log_regression": 0.5693,
       "ma200_multiple": 0.4088,
       "rsi14": 0.7076,
       "vol_adj_momentum": 0.8167
@@ -14114,14 +14114,14 @@
   {
     "date": "2025-08-31",
     "close": 3457.1,
-    "composite_score": 0.5817,
+    "composite_score": 0.582,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5644,
+      "log_regression": 0.5653,
       "ma200_multiple": 0.4032,
       "rsi14": 0.7059,
       "vol_adj_momentum": 0.7108
@@ -14178,14 +14178,14 @@
   {
     "date": "2025-09-04",
     "close": 3552.4,
-    "composite_score": 0.6961,
+    "composite_score": 0.6964,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.6541,
+      "log_regression": 0.655,
       "ma200_multiple": 0.5729,
       "rsi14": 0.7839,
       "vol_adj_momentum": 0.8358
@@ -14242,14 +14242,14 @@
   {
     "date": "2025-09-08",
     "close": 3635.6,
-    "composite_score": 0.773,
+    "composite_score": 0.7739,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7084,
+      "log_regression": 0.7111,
       "ma200_multiple": 0.6963,
       "rsi14": 0.8296,
       "vol_adj_momentum": 0.9252
@@ -14258,14 +14258,14 @@
   {
     "date": "2025-09-09",
     "close": 3637.4,
-    "composite_score": 0.7721,
+    "composite_score": 0.7727,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.707,
+      "log_regression": 0.7087,
       "ma200_multiple": 0.693,
       "rsi14": 0.8308,
       "vol_adj_momentum": 0.9261
@@ -14290,14 +14290,14 @@
   {
     "date": "2025-09-11",
     "close": 3631.7,
-    "composite_score": 0.7613,
+    "composite_score": 0.7617,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.6944,
+      "log_regression": 0.6953,
       "ma200_multiple": 0.6701,
       "rsi14": 0.7929,
       "vol_adj_momentum": 0.9609
@@ -14306,14 +14306,14 @@
   {
     "date": "2025-09-12",
     "close": 3645.6,
-    "composite_score": 0.7731,
+    "composite_score": 0.7734,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7077,
+      "log_regression": 0.7086,
       "ma200_multiple": 0.6886,
       "rsi14": 0.8051,
       "vol_adj_momentum": 0.961
@@ -14322,14 +14322,14 @@
   {
     "date": "2025-09-13",
     "close": 3640.6,
-    "composite_score": 0.7632,
+    "composite_score": 0.7635,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.6958,
+      "log_regression": 0.6967,
       "ma200_multiple": 0.6724,
       "rsi14": 0.7871,
       "vol_adj_momentum": 0.9705
@@ -14354,14 +14354,14 @@
   {
     "date": "2025-09-15",
     "close": 3677.7,
-    "composite_score": 0.7936,
+    "composite_score": 0.7939,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7336,
+      "log_regression": 0.7344,
       "ma200_multiple": 0.7111,
       "rsi14": 0.8215,
       "vol_adj_momentum": 0.974
@@ -14418,14 +14418,14 @@
   {
     "date": "2025-09-19",
     "close": 3682.7,
-    "composite_score": 0.7637,
+    "composite_score": 0.764,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7267,
+      "log_regression": 0.7276,
       "ma200_multiple": 0.6974,
       "rsi14": 0.7114,
       "vol_adj_momentum": 0.9638
@@ -14434,14 +14434,14 @@
   {
     "date": "2025-09-20",
     "close": 3682.5,
-    "composite_score": 0.7614,
+    "composite_score": 0.7617,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7227,
+      "log_regression": 0.7235,
       "ma200_multiple": 0.6899,
       "rsi14": 0.7108,
       "vol_adj_momentum": 0.969
@@ -14466,14 +14466,14 @@
   {
     "date": "2025-09-22",
     "close": 3749.6,
-    "composite_score": 0.8073,
+    "composite_score": 0.8082,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.7687,
+      "log_regression": 0.7713,
       "ma200_multiple": 0.7541,
       "rsi14": 0.7779,
       "vol_adj_momentum": 0.9708
@@ -14482,14 +14482,14 @@
   {
     "date": "2025-09-23",
     "close": 3764.1,
-    "composite_score": 0.8159,
+    "composite_score": 0.8165,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.7809,
+      "log_regression": 0.7826,
       "ma200_multiple": 0.7603,
       "rsi14": 0.7893,
       "vol_adj_momentum": 0.9734
@@ -14514,14 +14514,14 @@
   {
     "date": "2025-09-25",
     "close": 3744.2,
-    "composite_score": 0.7877,
+    "composite_score": 0.788,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7581,
+      "log_regression": 0.759,
       "ma200_multiple": 0.7341,
       "rsi14": 0.7336,
       "vol_adj_momentum": 0.9605
@@ -14530,14 +14530,14 @@
   {
     "date": "2025-09-26",
     "close": 3765.0,
-    "composite_score": 0.8042,
+    "composite_score": 0.8045,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.7763,
+      "log_regression": 0.7772,
       "ma200_multiple": 0.7524,
       "rsi14": 0.7546,
       "vol_adj_momentum": 0.9674
@@ -14546,14 +14546,14 @@
   {
     "date": "2025-09-27",
     "close": 3763.4,
-    "composite_score": 0.7971,
+    "composite_score": 0.798,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.768,
+      "log_regression": 0.7705,
       "ma200_multiple": 0.7483,
       "rsi14": 0.7497,
       "vol_adj_momentum": 0.9563
@@ -14562,14 +14562,14 @@
   {
     "date": "2025-09-28",
     "close": 3768.4,
-    "composite_score": 0.7983,
+    "composite_score": 0.7992,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.7725,
+      "log_regression": 0.775,
       "ma200_multiple": 0.7494,
       "rsi14": 0.755,
       "vol_adj_momentum": 0.9478
@@ -14578,14 +14578,14 @@
   {
     "date": "2025-09-29",
     "close": 3834.5,
-    "composite_score": 0.8383,
+    "composite_score": 0.8389,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.8248,
+      "log_regression": 0.8265,
       "ma200_multiple": 0.7838,
       "rsi14": 0.8121,
       "vol_adj_momentum": 0.9564
@@ -14594,14 +14594,14 @@
   {
     "date": "2025-09-30",
     "close": 3864.2,
-    "composite_score": 0.8587,
+    "composite_score": 0.8599,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.8565,
+      "log_regression": 0.8599,
       "ma200_multiple": 0.7959,
       "rsi14": 0.8311,
       "vol_adj_momentum": 0.9684
@@ -14610,14 +14610,14 @@
   {
     "date": "2025-10-01",
     "close": 3865.1,
-    "composite_score": 0.8543,
+    "composite_score": 0.8546,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.8532,
+      "log_regression": 0.8541,
       "ma200_multiple": 0.7935,
       "rsi14": 0.8317,
       "vol_adj_momentum": 0.9548
@@ -14626,14 +14626,14 @@
   {
     "date": "2025-10-02",
     "close": 3863.1,
-    "composite_score": 0.847,
+    "composite_score": 0.8473,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.8457,
+      "log_regression": 0.8465,
       "ma200_multiple": 0.7903,
       "rsi14": 0.8252,
       "vol_adj_momentum": 0.942
@@ -14642,14 +14642,14 @@
   {
     "date": "2025-10-03",
     "close": 3886.2,
-    "composite_score": 0.8611,
+    "composite_score": 0.8614,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.8722,
+      "log_regression": 0.8731,
       "ma200_multiple": 0.7998,
       "rsi14": 0.8407,
       "vol_adj_momentum": 0.9387
@@ -14674,14 +14674,14 @@
   {
     "date": "2025-10-05",
     "close": 3910.0,
-    "composite_score": 0.8706,
+    "composite_score": 0.8712,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.8861,
+      "log_regression": 0.8878,
       "ma200_multiple": 0.8044,
       "rsi14": 0.8557,
       "vol_adj_momentum": 0.9413
@@ -14706,14 +14706,14 @@
   {
     "date": "2025-10-07",
     "close": 3993.7,
-    "composite_score": 0.9045,
+    "composite_score": 0.9048,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9363,
+      "log_regression": 0.9372,
       "ma200_multiple": 0.8217,
       "rsi14": 0.8948,
       "vol_adj_momentum": 0.9618
@@ -14722,14 +14722,14 @@
   {
     "date": "2025-10-08",
     "close": 4018.0,
-    "composite_score": 0.9108,
+    "composite_score": 0.9111,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9517,
+      "log_regression": 0.9525,
       "ma200_multiple": 0.8227,
       "rsi14": 0.9034,
       "vol_adj_momentum": 0.9567
@@ -14738,14 +14738,14 @@
   {
     "date": "2025-10-09",
     "close": 3988.7,
-    "composite_score": 0.8789,
+    "composite_score": 0.8792,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9246,
+      "log_regression": 0.9254,
       "ma200_multiple": 0.8169,
       "rsi14": 0.8165,
       "vol_adj_momentum": 0.939
@@ -14754,14 +14754,14 @@
   {
     "date": "2025-10-10",
     "close": 3998.0,
-    "composite_score": 0.8828,
+    "composite_score": 0.8831,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9314,
+      "log_regression": 0.9323,
       "ma200_multiple": 0.818,
       "rsi14": 0.8223,
       "vol_adj_momentum": 0.939
@@ -14770,14 +14770,14 @@
   {
     "date": "2025-10-11",
     "close": 4007.4,
-    "composite_score": 0.888,
+    "composite_score": 0.8889,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9365,
+      "log_regression": 0.9391,
       "ma200_multiple": 0.819,
       "rsi14": 0.8283,
       "vol_adj_momentum": 0.9492
@@ -14786,14 +14786,14 @@
   {
     "date": "2025-10-12",
     "close": 4035.1,
-    "composite_score": 0.8991,
+    "composite_score": 0.8994,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9544,
+      "log_regression": 0.9552,
       "ma200_multiple": 0.8216,
       "rsi14": 0.8448,
       "vol_adj_momentum": 0.9535
@@ -14866,14 +14866,14 @@
   {
     "date": "2025-10-17",
     "close": 4233.8,
-    "composite_score": 0.8781,
+    "composite_score": 0.8784,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9815,
+      "log_regression": 0.9823,
       "ma200_multiple": 0.8316,
       "rsi14": 0.7216,
       "vol_adj_momentum": 0.9116
@@ -14882,14 +14882,14 @@
   {
     "date": "2025-10-18",
     "close": 4237.4,
-    "composite_score": 0.8808,
+    "composite_score": 0.8811,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9815,
+      "log_regression": 0.9823,
       "ma200_multiple": 0.831,
       "rsi14": 0.7233,
       "vol_adj_momentum": 0.9243
@@ -14898,14 +14898,14 @@
   {
     "date": "2025-10-19",
     "close": 4233.2,
-    "composite_score": 0.8743,
+    "composite_score": 0.8746,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9765,
+      "log_regression": 0.9773,
       "ma200_multiple": 0.8286,
       "rsi14": 0.7179,
       "vol_adj_momentum": 0.9092
@@ -14930,14 +14930,14 @@
   {
     "date": "2025-10-21",
     "close": 4095.6,
-    "composite_score": 0.7903,
+    "composite_score": 0.7906,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9572,
+      "log_regression": 0.9581,
       "ma200_multiple": 0.8171,
       "rsi14": 0.5376,
       "vol_adj_momentum": 0.7173
@@ -15010,14 +15010,14 @@
   {
     "date": "2025-10-26",
     "close": 4059.8,
-    "composite_score": 0.7506,
+    "composite_score": 0.7509,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9332,
+      "log_regression": 0.934,
       "ma200_multiple": 0.7978,
       "rsi14": 0.5045,
       "vol_adj_momentum": 0.6182
@@ -15026,14 +15026,14 @@
   {
     "date": "2025-10-27",
     "close": 3994.8,
-    "composite_score": 0.7038,
+    "composite_score": 0.7041,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.8823,
+      "log_regression": 0.8831,
       "ma200_multiple": 0.7663,
       "rsi14": 0.458,
       "vol_adj_momentum": 0.5593
@@ -15042,14 +15042,14 @@
   {
     "date": "2025-10-28",
     "close": 3965.3,
-    "composite_score": 0.6811,
+    "composite_score": 0.6814,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.859,
+      "log_regression": 0.8599,
       "ma200_multiple": 0.7473,
       "rsi14": 0.4382,
       "vol_adj_momentum": 0.5296
@@ -15058,14 +15058,14 @@
   {
     "date": "2025-10-29",
     "close": 3956.2,
-    "composite_score": 0.6601,
+    "composite_score": 0.6607,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8467,
+      "log_regression": 0.8483,
       "ma200_multiple": 0.7408,
       "rsi14": 0.4321,
       "vol_adj_momentum": 0.4608
@@ -15074,14 +15074,14 @@
   {
     "date": "2025-10-30",
     "close": 4033.6,
-    "composite_score": 0.7102,
+    "composite_score": 0.711,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9001,
+      "log_regression": 0.9026,
       "ma200_multiple": 0.7818,
       "rsi14": 0.4971,
       "vol_adj_momentum": 0.5012
@@ -15090,14 +15090,14 @@
   {
     "date": "2025-10-31",
     "close": 3997.6,
-    "composite_score": 0.684,
+    "composite_score": 0.6843,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8777,
+      "log_regression": 0.8785,
       "ma200_multiple": 0.7571,
       "rsi14": 0.4701,
       "vol_adj_momentum": 0.4676
@@ -15170,14 +15170,14 @@
   {
     "date": "2025-11-05",
     "close": 3967.3,
-    "composite_score": 0.629,
+    "composite_score": 0.6301,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8326,
+      "log_regression": 0.836,
       "ma200_multiple": 0.7274,
       "rsi14": 0.457,
       "vol_adj_momentum": 0.3215
@@ -15202,14 +15202,14 @@
   {
     "date": "2025-11-07",
     "close": 3983.0,
-    "composite_score": 0.6301,
+    "composite_score": 0.6304,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8453,
+      "log_regression": 0.8462,
       "ma200_multiple": 0.7328,
       "rsi14": 0.4723,
       "vol_adj_momentum": 0.2829
@@ -15218,14 +15218,14 @@
   {
     "date": "2025-11-08",
     "close": 3984.0,
-    "composite_score": 0.6362,
+    "composite_score": 0.6365,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8413,
+      "log_regression": 0.8421,
       "ma200_multiple": 0.7306,
       "rsi14": 0.4734,
       "vol_adj_momentum": 0.3223
@@ -15234,14 +15234,14 @@
   {
     "date": "2025-11-09",
     "close": 4000.7,
-    "composite_score": 0.6508,
+    "composite_score": 0.6513,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.858,
+      "log_regression": 0.8596,
       "ma200_multiple": 0.7415,
       "rsi14": 0.4918,
       "vol_adj_momentum": 0.3336
@@ -15250,14 +15250,14 @@
   {
     "date": "2025-11-10",
     "close": 4111.0,
-    "composite_score": 0.731,
+    "composite_score": 0.7316,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9365,
+      "log_regression": 0.9381,
       "ma200_multiple": 0.7979,
       "rsi14": 0.5933,
       "vol_adj_momentum": 0.4257
@@ -15314,14 +15314,14 @@
   {
     "date": "2025-11-14",
     "close": 4068.0,
-    "composite_score": 0.6479,
+    "composite_score": 0.6485,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8906,
+      "log_regression": 0.8923,
       "ma200_multiple": 0.7664,
       "rsi14": 0.5222,
       "vol_adj_momentum": 0.2007
@@ -15362,14 +15362,14 @@
   {
     "date": "2025-11-17",
     "close": 4016.8,
-    "composite_score": 0.5973,
+    "composite_score": 0.5976,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.8458,
+      "log_regression": 0.8466,
       "ma200_multiple": 0.7211,
       "rsi14": 0.4687,
       "vol_adj_momentum": 0.1362
@@ -15410,14 +15410,14 @@
   {
     "date": "2025-11-20",
     "close": 4065.7,
-    "composite_score": 0.6509,
+    "composite_score": 0.6512,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8781,
+      "log_regression": 0.8789,
       "ma200_multiple": 0.7439,
       "rsi14": 0.5154,
       "vol_adj_momentum": 0.2725
@@ -15442,14 +15442,14 @@
   {
     "date": "2025-11-22",
     "close": 4050.9,
-    "composite_score": 0.6293,
+    "composite_score": 0.6299,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8611,
+      "log_regression": 0.8627,
       "ma200_multiple": 0.7296,
       "rsi14": 0.4988,
       "vol_adj_momentum": 0.2288
@@ -15458,14 +15458,14 @@
   {
     "date": "2025-11-23",
     "close": 4056.9,
-    "composite_score": 0.6355,
+    "composite_score": 0.636,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.8645,
+      "log_regression": 0.8661,
       "ma200_multiple": 0.7314,
       "rsi14": 0.5061,
       "vol_adj_momentum": 0.2441
@@ -15474,14 +15474,14 @@
   {
     "date": "2025-11-24",
     "close": 4127.7,
-    "composite_score": 0.7009,
+    "composite_score": 0.7015,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9119,
+      "log_regression": 0.9135,
       "ma200_multiple": 0.7765,
       "rsi14": 0.5824,
       "vol_adj_momentum": 0.3556
@@ -15522,14 +15522,14 @@
   {
     "date": "2025-11-27",
     "close": 4147.8,
-    "composite_score": 0.7624,
+    "composite_score": 0.7633,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9227,
+      "log_regression": 0.9251,
       "ma200_multiple": 0.7787,
       "rsi14": 0.5966,
       "vol_adj_momentum": 0.6273
@@ -15538,14 +15538,14 @@
   {
     "date": "2025-11-28",
     "close": 4211.6,
-    "composite_score": 0.809,
+    "composite_score": 0.8093,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9545,
+      "log_regression": 0.9553,
       "ma200_multiple": 0.8033,
       "rsi14": 0.6543,
       "vol_adj_momentum": 0.7163
@@ -15554,14 +15554,14 @@
   {
     "date": "2025-11-29",
     "close": 4214.7,
-    "composite_score": 0.7912,
+    "composite_score": 0.7914,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9545,
+      "log_regression": 0.9553,
       "ma200_multiple": 0.8018,
       "rsi14": 0.6569,
       "vol_adj_momentum": 0.6263
@@ -15602,14 +15602,14 @@
   {
     "date": "2025-12-02",
     "close": 4205.8,
-    "composite_score": 0.7976,
+    "composite_score": 0.7979,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9481,
+      "log_regression": 0.9489,
       "ma200_multiple": 0.7917,
       "rsi14": 0.6323,
       "vol_adj_momentum": 0.7066
@@ -15666,14 +15666,14 @@
   {
     "date": "2025-12-06",
     "close": 4200.4,
-    "composite_score": 0.7893,
+    "composite_score": 0.7896,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9362,
+      "log_regression": 0.937,
       "ma200_multiple": 0.7754,
       "rsi14": 0.6215,
       "vol_adj_momentum": 0.7173
@@ -15682,14 +15682,14 @@
   {
     "date": "2025-12-07",
     "close": 4203.0,
-    "composite_score": 0.7881,
+    "composite_score": 0.7884,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9354,
+      "log_regression": 0.9362,
       "ma200_multiple": 0.7724,
       "rsi14": 0.6253,
       "vol_adj_momentum": 0.7127
@@ -15714,14 +15714,14 @@
   {
     "date": "2025-12-09",
     "close": 4207.3,
-    "composite_score": 0.7822,
+    "composite_score": 0.7825,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9339,
+      "log_regression": 0.9347,
       "ma200_multiple": 0.7687,
       "rsi14": 0.6236,
       "vol_adj_momentum": 0.6922
@@ -15730,14 +15730,14 @@
   {
     "date": "2025-12-10",
     "close": 4230.2,
-    "composite_score": 0.7763,
+    "composite_score": 0.7766,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9477,
+      "log_regression": 0.9485,
       "ma200_multiple": 0.7842,
       "rsi14": 0.6582,
       "vol_adj_momentum": 0.5845
@@ -15810,14 +15810,14 @@
   {
     "date": "2025-12-15",
     "close": 4305.5,
-    "composite_score": 0.8502,
+    "composite_score": 0.8505,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9599,
+      "log_regression": 0.9607,
       "ma200_multiple": 0.8019,
       "rsi14": 0.7435,
       "vol_adj_momentum": 0.8252
@@ -15842,14 +15842,14 @@
   {
     "date": "2025-12-17",
     "close": 4342.8,
-    "composite_score": 0.8857,
+    "composite_score": 0.886,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9656,
+      "log_regression": 0.9664,
       "ma200_multiple": 0.811,
       "rsi14": 0.7835,
       "vol_adj_momentum": 0.9416
@@ -15954,14 +15954,14 @@
   {
     "date": "2025-12-24",
     "close": 4486.1,
-    "composite_score": 0.9035,
+    "composite_score": 0.904,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9873,
+      "log_regression": 0.9889,
       "ma200_multiple": 0.8336,
       "rsi14": 0.8201,
       "vol_adj_momentum": 0.9275
@@ -15986,14 +15986,14 @@
   {
     "date": "2025-12-26",
     "close": 4539.7,
-    "composite_score": 0.9167,
+    "composite_score": 0.917,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9976,
+      "log_regression": 0.9984,
       "ma200_multiple": 0.8355,
       "rsi14": 0.8492,
       "vol_adj_momentum": 0.9444
@@ -16098,14 +16098,14 @@
   {
     "date": "2026-01-02",
     "close": 4339.9,
-    "composite_score": 0.7244,
+    "composite_score": 0.7247,
     "zone": "Sell Tier 2",
     "tier": "sell2",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 20% of holdings",
     "components": {
-      "log_regression": 0.9439,
+      "log_regression": 0.9447,
       "ma200_multiple": 0.7502,
       "rsi14": 0.4806,
       "vol_adj_momentum": 0.5518
@@ -16226,14 +16226,14 @@
   {
     "date": "2026-01-10",
     "close": 4506.5,
-    "composite_score": 0.8103,
+    "composite_score": 0.8106,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9764,
+      "log_regression": 0.9772,
       "ma200_multiple": 0.8146,
       "rsi14": 0.6512,
       "vol_adj_momentum": 0.6732
@@ -16274,14 +16274,14 @@
   {
     "date": "2026-01-13",
     "close": 4595.5,
-    "composite_score": 0.8443,
+    "composite_score": 0.8446,
     "zone": "Sell Tier 3 / Exit",
     "tier": "sell3",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 30% or full position",
     "components": {
-      "log_regression": 0.9945,
+      "log_regression": 0.9953,
       "ma200_multiple": 0.8284,
       "rsi14": 0.7192,
       "vol_adj_momentum": 0.7265
@@ -17314,14 +17314,14 @@
   {
     "date": "2026-03-19",
     "close": 4644.0,
-    "composite_score": 0.4828,
+    "composite_score": 0.4833,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.9068,
+      "log_regression": 0.9083,
       "ma200_multiple": 0.308,
       "rsi14": 0.2871,
       "vol_adj_momentum": 0.1551
@@ -17330,14 +17330,14 @@
   {
     "date": "2026-03-20",
     "close": 4496.2,
-    "composite_score": 0.3884,
+    "composite_score": 0.3887,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.839,
+      "log_regression": 0.8398,
       "ma200_multiple": 0.1386,
       "rsi14": 0.2455,
       "vol_adj_momentum": 0.0551
@@ -17346,14 +17346,14 @@
   {
     "date": "2026-03-21",
     "close": 4488.7,
-    "composite_score": 0.3776,
+    "composite_score": 0.3786,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.8265,
+      "log_regression": 0.8295,
       "ma200_multiple": 0.1221,
       "rsi14": 0.2435,
       "vol_adj_momentum": 0.0454
@@ -17394,14 +17394,14 @@
   {
     "date": "2026-03-24",
     "close": 4541.0,
-    "composite_score": 0.4147,
+    "composite_score": 0.4152,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.8633,
+      "log_regression": 0.8648,
       "ma200_multiple": 0.1798,
       "rsi14": 0.3178,
       "vol_adj_momentum": 0.0201
@@ -17426,14 +17426,14 @@
   {
     "date": "2026-03-26",
     "close": 4405.6,
-    "composite_score": 0.3356,
+    "composite_score": 0.3361,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.7545,
+      "log_regression": 0.7559,
       "ma200_multiple": 0.0631,
       "rsi14": 0.2723,
       "vol_adj_momentum": 0.0067
@@ -17442,14 +17442,14 @@
   {
     "date": "2026-03-27",
     "close": 4493.6,
-    "composite_score": 0.3858,
+    "composite_score": 0.3868,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.8184,
+      "log_regression": 0.8213,
       "ma200_multiple": 0.1082,
       "rsi14": 0.34,
       "vol_adj_momentum": 0.0215
@@ -17490,14 +17490,14 @@
   {
     "date": "2026-03-30",
     "close": 4508.0,
-    "composite_score": 0.3906,
+    "composite_score": 0.3911,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.8217,
+      "log_regression": 0.8232,
       "ma200_multiple": 0.1109,
       "rsi14": 0.3694,
       "vol_adj_momentum": 0.0067
@@ -17602,14 +17602,14 @@
   {
     "date": "2026-04-06",
     "close": 4626.8,
-    "composite_score": 0.4631,
+    "composite_score": 0.4638,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.8793,
+      "log_regression": 0.8815,
       "ma200_multiple": 0.2097,
       "rsi14": 0.4613,
       "vol_adj_momentum": 0.053
@@ -17826,14 +17826,14 @@
   {
     "date": "2026-04-20",
     "close": 4800.8,
-    "composite_score": 0.6346,
+    "composite_score": 0.6349,
     "zone": "Sell Tier 1",
     "tier": "sell1",
     "multiplier": null,
     "size_usd": null,
     "action": "Exit 10% of holdings",
     "components": {
-      "log_regression": 0.9133,
+      "log_regression": 0.9141,
       "ma200_multiple": 0.3161,
       "rsi14": 0.5467,
       "vol_adj_momentum": 0.6329
@@ -17858,14 +17858,14 @@
   {
     "date": "2026-04-22",
     "close": 4710.9,
-    "composite_score": 0.58,
+    "composite_score": 0.5803,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.8836,
+      "log_regression": 0.8844,
       "ma200_multiple": 0.2131,
       "rsi14": 0.4845,
       "vol_adj_momentum": 0.6029
@@ -17874,14 +17874,14 @@
   {
     "date": "2026-04-23",
     "close": 4685.2,
-    "composite_score": 0.5397,
+    "composite_score": 0.5399,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.8714,
+      "log_regression": 0.8721,
       "ma200_multiple": 0.1802,
       "rsi14": 0.4671,
       "vol_adj_momentum": 0.4811
@@ -17922,14 +17922,14 @@
   {
     "date": "2026-04-26",
     "close": 4675.0,
-    "composite_score": 0.5365,
+    "composite_score": 0.5367,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.8637,
+      "log_regression": 0.8644,
       "ma200_multiple": 0.1494,
       "rsi14": 0.4592,
       "vol_adj_momentum": 0.525
@@ -17970,14 +17970,14 @@
   {
     "date": "2026-04-29",
     "close": 4559.4,
-    "composite_score": 0.4373,
+    "composite_score": 0.4378,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.775,
+      "log_regression": 0.7764,
       "ma200_multiple": 0.063,
       "rsi14": 0.377,
       "vol_adj_momentum": 0.3748
@@ -18002,14 +18002,14 @@
   {
     "date": "2026-05-01",
     "close": 4601.7,
-    "composite_score": 0.418,
+    "composite_score": 0.4183,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.797,
+      "log_regression": 0.7977,
       "ma200_multiple": 0.0802,
       "rsi14": 0.4231,
       "vol_adj_momentum": 0.172
@@ -18018,14 +18018,14 @@
   {
     "date": "2026-05-02",
     "close": 4597.2,
-    "composite_score": 0.43,
+    "composite_score": 0.4302,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.7884,
+      "log_regression": 0.7892,
       "ma200_multiple": 0.0787,
       "rsi14": 0.4196,
       "vol_adj_momentum": 0.252
@@ -18034,14 +18034,14 @@
   {
     "date": "2026-05-03",
     "close": 4605.4,
-    "composite_score": 0.4389,
+    "composite_score": 0.4396,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.7908,
+      "log_regression": 0.7929,
       "ma200_multiple": 0.0808,
       "rsi14": 0.4288,
       "vol_adj_momentum": 0.2807
@@ -18050,14 +18050,14 @@
   {
     "date": "2026-05-04",
     "close": 4518.2,
-    "composite_score": 0.373,
+    "composite_score": 0.3733,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.7181,
+      "log_regression": 0.7188,
       "ma200_multiple": 0.0411,
       "rsi14": 0.3631,
       "vol_adj_momentum": 0.1939
@@ -18082,14 +18082,14 @@
   {
     "date": "2026-05-06",
     "close": 4685.1,
-    "composite_score": 0.5132,
+    "composite_score": 0.5137,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.8474,
+      "log_regression": 0.8488,
       "ma200_multiple": 0.1332,
       "rsi14": 0.5213,
       "vol_adj_momentum": 0.3952
@@ -18098,14 +18098,14 @@
   {
     "date": "2026-05-07",
     "close": 4696.1,
-    "composite_score": 0.485,
+    "composite_score": 0.4852,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.854,
+      "log_regression": 0.8547,
       "ma200_multiple": 0.146,
       "rsi14": 0.5298,
       "vol_adj_momentum": 0.218
@@ -18114,14 +18114,14 @@
   {
     "date": "2026-05-08",
     "close": 4699.8,
-    "composite_score": 0.5103,
+    "composite_score": 0.5106,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.8548,
+      "log_regression": 0.8555,
       "ma200_multiple": 0.1503,
       "rsi14": 0.5329,
       "vol_adj_momentum": 0.335
@@ -18130,14 +18130,14 @@
   {
     "date": "2026-05-09",
     "close": 4707.4,
-    "composite_score": 0.5022,
+    "composite_score": 0.5025,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.8585,
+      "log_regression": 0.8592,
       "ma200_multiple": 0.1588,
       "rsi14": 0.5394,
       "vol_adj_momentum": 0.2708
@@ -18194,14 +18194,14 @@
   {
     "date": "2026-05-13",
     "close": 4688.9,
-    "composite_score": 0.4745,
+    "composite_score": 0.4752,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.8295,
+      "log_regression": 0.8317,
       "ma200_multiple": 0.1203,
       "rsi14": 0.5103,
       "vol_adj_momentum": 0.26
@@ -18210,14 +18210,14 @@
   {
     "date": "2026-05-14",
     "close": 4652.1,
-    "composite_score": 0.4243,
+    "composite_score": 0.4246,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.7967,
+      "log_regression": 0.7974,
       "ma200_multiple": 0.0945,
       "rsi14": 0.4755,
       "vol_adj_momentum": 0.1339
@@ -18226,14 +18226,14 @@
   {
     "date": "2026-05-15",
     "close": 4542.5,
-    "composite_score": 0.3492,
+    "composite_score": 0.3494,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.7024,
+      "log_regression": 0.7031,
       "ma200_multiple": 0.0393,
       "rsi14": 0.3901,
       "vol_adj_momentum": 0.0773
@@ -18274,14 +18274,14 @@
   {
     "date": "2026-05-18",
     "close": 4574.0,
-    "composite_score": 0.3725,
+    "composite_score": 0.3728,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.7252,
+      "log_regression": 0.7259,
       "ma200_multiple": 0.0478,
       "rsi14": 0.4302,
       "vol_adj_momentum": 0.1035
@@ -18290,14 +18290,14 @@
   {
     "date": "2026-05-19",
     "close": 4490.9,
-    "composite_score": 0.3252,
+    "composite_score": 0.3254,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.6605,
+      "log_regression": 0.6612,
       "ma200_multiple": 0.0143,
       "rsi14": 0.3688,
       "vol_adj_momentum": 0.0835
@@ -18322,14 +18322,14 @@
   {
     "date": "2026-05-21",
     "close": 4528.7,
-    "composite_score": 0.3465,
+    "composite_score": 0.3472,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.6781,
+      "log_regression": 0.6802,
       "ma200_multiple": 0.0214,
       "rsi14": 0.4128,
       "vol_adj_momentum": 0.1061
@@ -18354,14 +18354,14 @@
   {
     "date": "2026-05-23",
     "close": 4512.4,
-    "composite_score": 0.345,
+    "composite_score": 0.3452,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.6664,
+      "log_regression": 0.6671,
       "ma200_multiple": 0.0178,
       "rsi14": 0.4077,
       "vol_adj_momentum": 0.1287
@@ -18386,14 +18386,14 @@
   {
     "date": "2026-05-25",
     "close": 4544.9,
-    "composite_score": 0.3652,
+    "composite_score": 0.366,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.6811,
+      "log_regression": 0.6832,
       "ma200_multiple": 0.0249,
       "rsi14": 0.4454,
       "vol_adj_momentum": 0.1577
@@ -18402,14 +18402,14 @@
   {
     "date": "2026-05-26",
     "close": 4512.1,
-    "composite_score": 0.345,
+    "composite_score": 0.3457,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.6551,
+      "log_regression": 0.6572,
       "ma200_multiple": 0.0163,
       "rsi14": 0.4161,
       "vol_adj_momentum": 0.1419
@@ -18434,14 +18434,14 @@
   {
     "date": "2026-05-28",
     "close": 4481.0,
-    "composite_score": 0.3433,
+    "composite_score": 0.3436,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.6293,
+      "log_regression": 0.63,
       "ma200_multiple": 0.0128,
       "rsi14": 0.4086,
       "vol_adj_momentum": 0.1906
@@ -18450,14 +18450,14 @@
   {
     "date": "2026-05-29",
     "close": 4523.3,
-    "composite_score": 0.3808,
+    "composite_score": 0.3811,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.6579,
+      "log_regression": 0.6586,
       "ma200_multiple": 0.0191,
       "rsi14": 0.4549,
       "vol_adj_momentum": 0.2741
@@ -18498,14 +18498,14 @@
   {
     "date": "2026-06-01",
     "close": 4469.8,
-    "composite_score": 0.3357,
+    "composite_score": 0.3362,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.617,
+      "log_regression": 0.6184,
       "ma200_multiple": 0.012,
       "rsi14": 0.4105,
       "vol_adj_momentum": 0.1731
@@ -18514,14 +18514,14 @@
   {
     "date": "2026-06-02",
     "close": 4452.4,
-    "composite_score": 0.3241,
+    "composite_score": 0.3243,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.6073,
+      "log_regression": 0.6081,
       "ma200_multiple": 0.0106,
       "rsi14": 0.396,
       "vol_adj_momentum": 0.1483
@@ -18530,14 +18530,14 @@
   {
     "date": "2026-06-03",
     "close": 4435.1,
-    "composite_score": 0.3284,
+    "composite_score": 0.3286,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.5914,
+      "log_regression": 0.5921,
       "ma200_multiple": 0.0092,
       "rsi14": 0.3816,
       "vol_adj_momentum": 0.2138
@@ -18562,14 +18562,14 @@
   {
     "date": "2026-06-05",
     "close": 4300.6,
-    "composite_score": 0.2408,
+    "composite_score": 0.2411,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.5116,
+      "log_regression": 0.5123,
       "ma200_multiple": 0.0007,
       "rsi14": 0.2903,
       "vol_adj_momentum": 0.0176
@@ -18594,14 +18594,14 @@
   {
     "date": "2026-06-07",
     "close": 4323.8,
-    "composite_score": 0.2528,
+    "composite_score": 0.253,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.5186,
+      "log_regression": 0.5194,
       "ma200_multiple": 0.0021,
       "rsi14": 0.3297,
       "vol_adj_momentum": 0.0239
@@ -18610,14 +18610,14 @@
   {
     "date": "2026-06-08",
     "close": 4298.5,
-    "composite_score": 0.2424,
+    "composite_score": 0.2427,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.5042,
+      "log_regression": 0.5049,
       "ma200_multiple": 0.0014,
       "rsi14": 0.3132,
       "vol_adj_momentum": 0.0148
@@ -18626,14 +18626,14 @@
   {
     "date": "2026-06-09",
     "close": 4209.0,
-    "composite_score": 0.2006,
+    "composite_score": 0.2014,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.4188,
+      "log_regression": 0.4209,
       "ma200_multiple": 0.0007,
       "rsi14": 0.263,
       "vol_adj_momentum": 0.0063
@@ -18642,14 +18642,14 @@
   {
     "date": "2026-06-10",
     "close": 4044.4,
-    "composite_score": 0.1275,
+    "composite_score": 0.1277,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.2493,
+      "log_regression": 0.25,
       "ma200_multiple": 0.0007,
       "rsi14": 0.1996,
       "vol_adj_momentum": 0.0007
@@ -18674,14 +18674,14 @@
   {
     "date": "2026-06-12",
     "close": 4203.9,
-    "composite_score": 0.2223,
+    "composite_score": 0.2226,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.4074,
+      "log_regression": 0.4081,
       "ma200_multiple": 0.0014,
       "rsi14": 0.3605,
       "vol_adj_momentum": 0.0365
@@ -18706,14 +18706,14 @@
   {
     "date": "2026-06-14",
     "close": 4280.8,
-    "composite_score": 0.2757,
+    "composite_score": 0.2762,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.4741,
+      "log_regression": 0.4755,
       "ma200_multiple": 0.0042,
       "rsi14": 0.429,
       "vol_adj_momentum": 0.1148
@@ -18722,14 +18722,14 @@
   {
     "date": "2026-06-15",
     "close": 4298.6,
-    "composite_score": 0.2864,
+    "composite_score": 0.2869,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.4878,
+      "log_regression": 0.4892,
       "ma200_multiple": 0.0056,
       "rsi14": 0.4439,
       "vol_adj_momentum": 0.1274
@@ -18738,14 +18738,14 @@
   {
     "date": "2026-06-16",
     "close": 4312.1,
-    "composite_score": 0.2957,
+    "composite_score": 0.2959,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.4951,
+      "log_regression": 0.4958,
       "ma200_multiple": 0.0077,
       "rsi14": 0.4556,
       "vol_adj_momentum": 0.1469
@@ -18754,14 +18754,14 @@
   {
     "date": "2026-06-17",
     "close": 4263.1,
-    "composite_score": 0.2606,
+    "composite_score": 0.2608,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.4486,
+      "log_regression": 0.4493,
       "ma200_multiple": 0.0042,
       "rsi14": 0.4211,
       "vol_adj_momentum": 0.0915
@@ -18770,14 +18770,14 @@
   {
     "date": "2026-06-18",
     "close": 4177.4,
-    "composite_score": 0.2199,
+    "composite_score": 0.2206,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.3659,
+      "log_regression": 0.368,
       "ma200_multiple": 0.0014,
       "rsi14": 0.3685,
       "vol_adj_momentum": 0.0887
@@ -18802,14 +18802,14 @@
   {
     "date": "2026-06-20",
     "close": 4145.7,
-    "composite_score": 0.1982,
+    "composite_score": 0.1985,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.3305,
+      "log_regression": 0.3312,
       "ma200_multiple": 0.0014,
       "rsi14": 0.3509,
       "vol_adj_momentum": 0.06
@@ -18818,14 +18818,14 @@
   {
     "date": "2026-06-21",
     "close": 4129.8,
-    "composite_score": 0.1913,
+    "composite_score": 0.1915,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.3101,
+      "log_regression": 0.3108,
       "ma200_multiple": 0.0014,
       "rsi14": 0.3415,
       "vol_adj_momentum": 0.0704
@@ -18850,14 +18850,14 @@
   {
     "date": "2026-06-23",
     "close": 4091.3,
-    "composite_score": 0.1679,
+    "composite_score": 0.1688,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.2617,
+      "log_regression": 0.2644,
       "ma200_multiple": 0.0014,
       "rsi14": 0.34,
       "vol_adj_momentum": 0.0397
@@ -18882,14 +18882,14 @@
   {
     "date": "2026-06-25",
     "close": 4008.4,
-    "composite_score": 0.1128,
+    "composite_score": 0.113,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.1355,
+      "log_regression": 0.1362,
       "ma200_multiple": 0.0007,
       "rsi14": 0.2981,
       "vol_adj_momentum": 0.0278
@@ -18898,14 +18898,14 @@
   {
     "date": "2026-06-26",
     "close": 4076.0,
-    "composite_score": 0.1708,
+    "composite_score": 0.171,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.2299,
+      "log_regression": 0.2306,
       "ma200_multiple": 0.0028,
       "rsi14": 0.3711,
       "vol_adj_momentum": 0.0771
@@ -18914,14 +18914,14 @@
   {
     "date": "2026-06-27",
     "close": 4070.3,
-    "composite_score": 0.1618,
+    "composite_score": 0.1625,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.2165,
+      "log_regression": 0.2186,
       "ma200_multiple": 0.0028,
       "rsi14": 0.3676,
       "vol_adj_momentum": 0.059
@@ -18930,14 +18930,14 @@
   {
     "date": "2026-06-28",
     "close": 4055.5,
-    "composite_score": 0.1476,
+    "composite_score": 0.1481,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.1921,
+      "log_regression": 0.1935,
       "ma200_multiple": 0.0028,
       "rsi14": 0.3583,
       "vol_adj_momentum": 0.0402
@@ -18946,14 +18946,14 @@
   {
     "date": "2026-06-29",
     "close": 4011.9,
-    "composite_score": 0.118,
+    "composite_score": 0.1187,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.1275,
+      "log_regression": 0.1296,
       "ma200_multiple": 0.0021,
       "rsi14": 0.3314,
       "vol_adj_momentum": 0.0326
@@ -18962,14 +18962,14 @@
   {
     "date": "2026-06-30",
     "close": 4001.3,
-    "composite_score": 0.1066,
+    "composite_score": 0.1071,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.1032,
+      "log_regression": 0.1046,
       "ma200_multiple": 0.0007,
       "rsi14": 0.3251,
       "vol_adj_momentum": 0.0263
@@ -18978,14 +18978,14 @@
   {
     "date": "2026-07-01",
     "close": 4030.9,
-    "composite_score": 0.134,
+    "composite_score": 0.1345,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.1439,
+      "log_regression": 0.1453,
       "ma200_multiple": 0.0035,
       "rsi14": 0.362,
       "vol_adj_momentum": 0.0519
@@ -18994,14 +18994,14 @@
   {
     "date": "2026-07-02",
     "close": 4120.3,
-    "composite_score": 0.2084,
+    "composite_score": 0.2088,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.2711,
+      "log_regression": 0.2725,
       "ma200_multiple": 0.0076,
       "rsi14": 0.4583,
       "vol_adj_momentum": 0.0996
@@ -19010,14 +19010,14 @@
   {
     "date": "2026-07-03",
     "close": 4163.9,
-    "composite_score": 0.2372,
+    "composite_score": 0.238,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.3124,
+      "log_regression": 0.3144,
       "ma200_multiple": 0.0104,
       "rsi14": 0.498,
       "vol_adj_momentum": 0.1285
@@ -19026,14 +19026,14 @@
   {
     "date": "2026-07-04",
     "close": 4165.2,
-    "composite_score": 0.2372,
+    "composite_score": 0.2377,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.3108,
+      "log_regression": 0.3122,
       "ma200_multiple": 0.0117,
       "rsi14": 0.4992,
       "vol_adj_momentum": 0.1285
@@ -19058,14 +19058,14 @@
   {
     "date": "2026-07-06",
     "close": 4149.2,
-    "composite_score": 0.2416,
+    "composite_score": 0.2423,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.2862,
+      "log_regression": 0.2883,
       "ma200_multiple": 0.0103,
       "rsi14": 0.483,
       "vol_adj_momentum": 0.211
@@ -19074,14 +19074,14 @@
   {
     "date": "2026-07-07",
     "close": 4091.3,
-    "composite_score": 0.1877,
+    "composite_score": 0.1882,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.2047,
+      "log_regression": 0.2061,
       "ma200_multiple": 0.0076,
       "rsi14": 0.4302,
       "vol_adj_momentum": 0.1406
@@ -19090,14 +19090,14 @@
   {
     "date": "2026-07-08",
     "close": 4070.3,
-    "composite_score": 0.1716,
+    "composite_score": 0.1726,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1674,
+      "log_regression": 0.1701,
       "ma200_multiple": 0.0069,
       "rsi14": 0.4126,
       "vol_adj_momentum": 0.1439
@@ -19106,14 +19106,14 @@
   {
     "date": "2026-07-09",
     "close": 4112.2,
-    "composite_score": 0.2248,
+    "composite_score": 0.2253,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.2299,
+      "log_regression": 0.2312,
       "ma200_multiple": 0.0089,
       "rsi14": 0.4601,
       "vol_adj_momentum": 0.2505
@@ -19122,14 +19122,14 @@
   {
     "date": "2026-07-10",
     "close": 4108.4,
-    "composite_score": 0.2576,
+    "composite_score": 0.2583,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2187,
+      "log_regression": 0.2208,
       "ma200_multiple": 0.0089,
       "rsi14": 0.4565,
       "vol_adj_momentum": 0.4374
@@ -19138,14 +19138,14 @@
   {
     "date": "2026-07-11",
     "close": 4099.2,
-    "composite_score": 0.2017,
+    "composite_score": 0.202,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1993,
+      "log_regression": 0.2,
       "ma200_multiple": 0.0089,
       "rsi14": 0.4473,
       "vol_adj_momentum": 0.2014
@@ -19170,14 +19170,14 @@
   {
     "date": "2026-07-13",
     "close": 4000.4,
-    "composite_score": 0.1177,
+    "composite_score": 0.1179,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0693,
+      "log_regression": 0.07,
       "ma200_multiple": 0.0034,
       "rsi14": 0.3591,
       "vol_adj_momentum": 0.1036
@@ -19186,14 +19186,14 @@
   {
     "date": "2026-07-14",
     "close": 4050.2,
-    "composite_score": 0.1447,
+    "composite_score": 0.1452,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.1145,
+      "log_regression": 0.1159,
       "ma200_multiple": 0.0069,
       "rsi14": 0.4219,
       "vol_adj_momentum": 0.0926
@@ -19202,14 +19202,14 @@
   {
     "date": "2026-07-15",
     "close": 4053.9,
-    "composite_score": 0.1446,
+    "composite_score": 0.1451,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.1158,
+      "log_regression": 0.1172,
       "ma200_multiple": 0.0082,
       "rsi14": 0.4264,
       "vol_adj_momentum": 0.0836
@@ -19298,14 +19298,14 @@
   {
     "date": "2026-07-21",
     "close": 4076.5,
-    "composite_score": 0.2034,
+    "composite_score": 0.2041,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1324,
+      "log_regression": 0.1345,
       "ma200_multiple": 0.015,
       "rsi14": 0.4928,
       "vol_adj_momentum": 0.2737
@@ -19314,14 +19314,14 @@
   {
     "date": "2026-07-22",
     "close": 4127.1,
-    "composite_score": 0.2409,
+    "composite_score": 0.2413,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1999,
+      "log_regression": 0.2012,
       "ma200_multiple": 0.0211,
       "rsi14": 0.5464,
       "vol_adj_momentum": 0.2817
@@ -19378,14 +19378,14 @@
   {
     "date": "2026-07-26",
     "close": 4086.1,
-    "composite_score": 0.2236,
+    "composite_score": 0.2241,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1204,
+      "log_regression": 0.1218,
       "ma200_multiple": 0.0211,
       "rsi14": 0.5075,
       "vol_adj_momentum": 0.3735
@@ -19442,14 +19442,14 @@
   {
     "date": "2026-07-30",
     "close": 4097.0,
-    "composite_score": 0.2575,
+    "composite_score": 0.2578,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.1208,
+      "log_regression": 0.1214,
       "ma200_multiple": 0.0251,
       "rsi14": 0.5239,
       "vol_adj_momentum": 0.521
@@ -19474,14 +19474,14 @@
   {
     "date": "2026-08-01",
     "close": 4043.9,
-    "composite_score": 0.1655,
+    "composite_score": 0.1657,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.061,
+      "log_regression": 0.0617,
       "ma200_multiple": 0.0176,
       "rsi14": 0.4676,
       "vol_adj_momentum": 0.231
@@ -19506,14 +19506,14 @@
   {
     "date": "2026-08-03",
     "close": 4044.1,
-    "composite_score": 0.1538,
+    "composite_score": 0.154,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.0589,
+      "log_regression": 0.0595,
       "ma200_multiple": 0.0189,
       "rsi14": 0.4689,
       "vol_adj_momentum": 0.1732
@@ -19554,14 +19554,14 @@
   {
     "date": "2026-08-06",
     "close": 4237.3,
-    "composite_score": 0.3507,
+    "composite_score": 0.3514,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2957,
+      "log_regression": 0.2978,
       "ma200_multiple": 0.0405,
       "rsi14": 0.6372,
       "vol_adj_momentum": 0.5483
@@ -19570,14 +19570,14 @@
   {
     "date": "2026-08-07",
     "close": 4332.3,
-    "composite_score": 0.422,
+    "composite_score": 0.4225,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3893,
+      "log_regression": 0.3907,
       "ma200_multiple": 0.0479,
       "rsi14": 0.6927,
       "vol_adj_momentum": 0.6761
@@ -19586,14 +19586,14 @@
   {
     "date": "2026-08-08",
     "close": 4332.7,
-    "composite_score": 0.4115,
+    "composite_score": 0.412,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3844,
+      "log_regression": 0.3857,
       "ma200_multiple": 0.0486,
       "rsi14": 0.6929,
       "vol_adj_momentum": 0.6312
@@ -19602,14 +19602,14 @@
   {
     "date": "2026-08-09",
     "close": 4317.2,
-    "composite_score": 0.398,
+    "composite_score": 0.3984,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.3646,
+      "log_regression": 0.3659,
       "ma200_multiple": 0.0478,
       "rsi14": 0.6734,
       "vol_adj_momentum": 0.6186
@@ -19618,14 +19618,14 @@
   {
     "date": "2026-08-10",
     "close": 4379.6,
-    "composite_score": 0.4405,
+    "composite_score": 0.4412,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4209,
+      "log_regression": 0.4229,
       "ma200_multiple": 0.0552,
       "rsi14": 0.7089,
       "vol_adj_momentum": 0.6882
@@ -19634,14 +19634,14 @@
   {
     "date": "2026-08-11",
     "close": 4353.5,
-    "composite_score": 0.4256,
+    "composite_score": 0.4261,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4017,
+      "log_regression": 0.4031,
       "ma200_multiple": 0.0525,
       "rsi14": 0.6758,
       "vol_adj_momentum": 0.6837
@@ -19650,14 +19650,14 @@
   {
     "date": "2026-08-12",
     "close": 4393.0,
-    "composite_score": 0.4633,
+    "composite_score": 0.4635,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.427,
+      "log_regression": 0.4277,
       "ma200_multiple": 0.0592,
       "rsi14": 0.6988,
       "vol_adj_momentum": 0.7962
@@ -19666,14 +19666,14 @@
   {
     "date": "2026-08-13",
     "close": 4339.9,
-    "composite_score": 0.4125,
+    "composite_score": 0.4128,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.375,
+      "log_regression": 0.3757,
       "ma200_multiple": 0.0524,
       "rsi14": 0.6339,
       "vol_adj_momentum": 0.707
@@ -19698,14 +19698,14 @@
   {
     "date": "2026-08-15",
     "close": 4361.9,
-    "composite_score": 0.4394,
+    "composite_score": 0.4401,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3946,
+      "log_regression": 0.3966,
       "ma200_multiple": 0.057,
       "rsi14": 0.6466,
       "vol_adj_momentum": 0.7886
@@ -19714,14 +19714,14 @@
   {
     "date": "2026-08-16",
     "close": 4352.5,
-    "composite_score": 0.4257,
+    "composite_score": 0.4259,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.3763,
+      "log_regression": 0.3769,
       "ma200_multiple": 0.0563,
       "rsi14": 0.6342,
       "vol_adj_momentum": 0.7653
@@ -19730,14 +19730,14 @@
   {
     "date": "2026-08-17",
     "close": 4404.8,
-    "composite_score": 0.4598,
+    "composite_score": 0.4601,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4263,
+      "log_regression": 0.4269,
       "ma200_multiple": 0.0643,
       "rsi14": 0.6718,
       "vol_adj_momentum": 0.8009
@@ -19746,14 +19746,14 @@
   {
     "date": "2026-08-18",
     "close": 4326.4,
-    "composite_score": 0.3992,
+    "composite_score": 0.3996,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.349,
+      "log_regression": 0.3503,
       "ma200_multiple": 0.0529,
       "rsi14": 0.5762,
       "vol_adj_momentum": 0.7428
@@ -19762,14 +19762,14 @@
   {
     "date": "2026-08-19",
     "close": 4488.5,
-    "composite_score": 0.4975,
+    "composite_score": 0.498,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4933,
+      "log_regression": 0.4946,
       "ma200_multiple": 0.1031,
       "rsi14": 0.6782,
       "vol_adj_momentum": 0.8173
@@ -19778,14 +19778,14 @@
   {
     "date": "2026-08-20",
     "close": 4505.2,
-    "composite_score": 0.4984,
+    "composite_score": 0.4988,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.507,
+      "log_regression": 0.5084,
       "ma200_multiple": 0.1084,
       "rsi14": 0.6866,
       "vol_adj_momentum": 0.7826
@@ -19794,14 +19794,14 @@
   {
     "date": "2026-08-21",
     "close": 4587.1,
-    "composite_score": 0.5357,
+    "composite_score": 0.536,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5528,
+      "log_regression": 0.5535,
       "ma200_multiple": 0.1531,
       "rsi14": 0.7244,
       "vol_adj_momentum": 0.7955
@@ -19890,14 +19890,14 @@
   {
     "date": "2026-08-27",
     "close": 4584.7,
-    "composite_score": 0.5331,
+    "composite_score": 0.5333,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.5406,
+      "log_regression": 0.5413,
       "ma200_multiple": 0.1558,
       "rsi14": 0.6583,
       "vol_adj_momentum": 0.8662
@@ -19906,14 +19906,14 @@
   {
     "date": "2026-08-28",
     "close": 4458.4,
-    "composite_score": 0.4295,
+    "composite_score": 0.43,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4385,
+      "log_regression": 0.4398,
       "ma200_multiple": 0.0885,
       "rsi14": 0.5325,
       "vol_adj_momentum": 0.7372
@@ -19922,14 +19922,14 @@
   {
     "date": "2026-08-29",
     "close": 4458.2,
-    "composite_score": 0.4266,
+    "composite_score": 0.4271,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4362,
+      "log_regression": 0.4375,
       "ma200_multiple": 0.0944,
       "rsi14": 0.5323,
       "vol_adj_momentum": 0.7194
@@ -19938,14 +19938,14 @@
   {
     "date": "2026-08-30",
     "close": 4444.8,
-    "composite_score": 0.4239,
+    "composite_score": 0.4241,
     "zone": "Reduced / Hold",
     "tier": "buy",
     "multiplier": 0.5,
     "size_usd": 5.0,
     "action": "Slow down",
     "components": {
-      "log_regression": 0.4226,
+      "log_regression": 0.4233,
       "ma200_multiple": 0.0824,
       "rsi14": 0.5201,
       "vol_adj_momentum": 0.7568
@@ -19970,14 +19970,14 @@
   {
     "date": "2026-09-01",
     "close": 4330.0,
-    "composite_score": 0.3319,
+    "composite_score": 0.3321,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.3033,
+      "log_regression": 0.3039,
       "ma200_multiple": 0.0604,
       "rsi14": 0.4235,
       "vol_adj_momentum": 0.6297
@@ -19986,14 +19986,14 @@
   {
     "date": "2026-09-02",
     "close": 4384.9,
-    "composite_score": 0.3748,
+    "composite_score": 0.375,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.3554,
+      "log_regression": 0.3561,
       "ma200_multiple": 0.067,
       "rsi14": 0.4738,
       "vol_adj_momentum": 0.6943
@@ -20018,14 +20018,14 @@
   {
     "date": "2026-09-04",
     "close": 4426.8,
-    "composite_score": 0.3687,
+    "composite_score": 0.3689,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.396,
+      "log_regression": 0.3967,
       "ma200_multiple": 0.0815,
       "rsi14": 0.5054,
       "vol_adj_momentum": 0.543
@@ -20034,14 +20034,14 @@
   {
     "date": "2026-09-05",
     "close": 4426.4,
-    "composite_score": 0.3722,
+    "composite_score": 0.3724,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.3911,
+      "log_regression": 0.3918,
       "ma200_multiple": 0.0827,
       "rsi14": 0.5051,
       "vol_adj_momentum": 0.5678
@@ -20066,14 +20066,14 @@
   {
     "date": "2026-09-07",
     "close": 4420.0,
-    "composite_score": 0.3424,
+    "composite_score": 0.3427,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.3721,
+      "log_regression": 0.3728,
       "ma200_multiple": 0.0826,
       "rsi14": 0.4997,
       "vol_adj_momentum": 0.458
@@ -20082,14 +20082,14 @@
   {
     "date": "2026-09-08",
     "close": 4350.8,
-    "composite_score": 0.2867,
+    "composite_score": 0.2869,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.3005,
+      "log_regression": 0.3012,
       "ma200_multiple": 0.0647,
       "rsi14": 0.4397,
       "vol_adj_momentum": 0.3871
@@ -20098,14 +20098,14 @@
   {
     "date": "2026-09-09",
     "close": 4392.1,
-    "composite_score": 0.3067,
+    "composite_score": 0.3069,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.3399,
+      "log_regression": 0.3406,
       "ma200_multiple": 0.0766,
       "rsi14": 0.4798,
       "vol_adj_momentum": 0.363
@@ -20114,14 +20114,14 @@
   {
     "date": "2026-09-10",
     "close": 4316.7,
-    "composite_score": 0.2484,
+    "composite_score": 0.2489,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.254,
+      "log_regression": 0.2553,
       "ma200_multiple": 0.062,
       "rsi14": 0.4206,
       "vol_adj_momentum": 0.2995
@@ -20146,14 +20146,14 @@
   {
     "date": "2026-09-12",
     "close": 4350.6,
-    "composite_score": 0.2804,
+    "composite_score": 0.2813,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2866,
+      "log_regression": 0.2892,
       "ma200_multiple": 0.0679,
       "rsi14": 0.4533,
       "vol_adj_momentum": 0.3623
@@ -20162,14 +20162,14 @@
   {
     "date": "2026-09-13",
     "close": 4332.4,
-    "composite_score": 0.2559,
+    "composite_score": 0.2566,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2594,
+      "log_regression": 0.2614,
       "ma200_multiple": 0.0658,
       "rsi14": 0.438,
       "vol_adj_momentum": 0.3055
@@ -20178,14 +20178,14 @@
   {
     "date": "2026-09-14",
     "close": 4290.4,
-    "composite_score": 0.2191,
+    "composite_score": 0.2195,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.2,
+      "log_regression": 0.2013,
       "ma200_multiple": 0.0605,
       "rsi14": 0.404,
       "vol_adj_momentum": 0.2658
@@ -20194,14 +20194,14 @@
   {
     "date": "2026-09-15",
     "close": 4283.4,
-    "composite_score": 0.2126,
+    "composite_score": 0.2135,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1828,
+      "log_regression": 0.1854,
       "ma200_multiple": 0.0605,
       "rsi14": 0.3984,
       "vol_adj_momentum": 0.2689
@@ -20210,14 +20210,14 @@
   {
     "date": "2026-09-16",
     "close": 4276.4,
-    "composite_score": 0.1952,
+    "composite_score": 0.1956,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1682,
+      "log_regression": 0.1695,
       "ma200_multiple": 0.0598,
       "rsi14": 0.3926,
       "vol_adj_momentum": 0.2142
@@ -20226,14 +20226,14 @@
   {
     "date": "2026-09-17",
     "close": 4348.4,
-    "composite_score": 0.2847,
+    "composite_score": 0.2854,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2672,
+      "log_regression": 0.2692,
       "ma200_multiple": 0.0794,
       "rsi14": 0.4771,
       "vol_adj_momentum": 0.3795
@@ -20242,14 +20242,14 @@
   {
     "date": "2026-09-18",
     "close": 4376.1,
-    "composite_score": 0.2705,
+    "composite_score": 0.2707,
     "zone": "Buy",
     "tier": "buy",
     "multiplier": 1.0,
     "size_usd": 10.0,
     "action": "Normal DCA",
     "components": {
-      "log_regression": 0.2966,
+      "log_regression": 0.2972,
       "ma200_multiple": 0.0912,
       "rsi14": 0.5056,
       "vol_adj_momentum": 0.2139
@@ -20290,14 +20290,14 @@
   {
     "date": "2026-09-21",
     "close": 4369.0,
-    "composite_score": 0.2439,
+    "composite_score": 0.2444,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.2809,
+      "log_regression": 0.2823,
       "ma200_multiple": 0.0976,
       "rsi14": 0.4972,
       "vol_adj_momentum": 0.1087
@@ -20306,14 +20306,14 @@
   {
     "date": "2026-09-22",
     "close": 4361.5,
-    "composite_score": 0.2305,
+    "composite_score": 0.2309,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.2624,
+      "log_regression": 0.2637,
       "ma200_multiple": 0.091,
       "rsi14": 0.4877,
       "vol_adj_momentum": 0.0916
@@ -20322,14 +20322,14 @@
   {
     "date": "2026-09-23",
     "close": 4290.9,
-    "composite_score": 0.1613,
+    "composite_score": 0.1618,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1629,
+      "log_regression": 0.1642,
       "ma200_multiple": 0.068,
       "rsi14": 0.4084,
       "vol_adj_momentum": 0.0281
@@ -20338,14 +20338,14 @@
   {
     "date": "2026-09-24",
     "close": 4261.8,
-    "composite_score": 0.1375,
+    "composite_score": 0.1379,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.1131,
+      "log_regression": 0.1144,
       "ma200_multiple": 0.0654,
       "rsi14": 0.381,
       "vol_adj_momentum": 0.0268
@@ -20354,14 +20354,14 @@
   {
     "date": "2026-09-25",
     "close": 4287.3,
-    "composite_score": 0.1635,
+    "composite_score": 0.1644,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1476,
+      "log_regression": 0.1502,
       "ma200_multiple": 0.0692,
       "rsi14": 0.4179,
       "vol_adj_momentum": 0.0549
@@ -20386,14 +20386,14 @@
   {
     "date": "2026-09-27",
     "close": 4262.5,
-    "composite_score": 0.1513,
+    "composite_score": 0.1515,
     "zone": "Strong Buy",
     "tier": "buy",
     "multiplier": 1.5,
     "size_usd": 15.0,
     "action": "Accumulate",
     "components": {
-      "log_regression": 0.1005,
+      "log_regression": 0.1011,
       "ma200_multiple": 0.0665,
       "rsi14": 0.3919,
       "vol_adj_momentum": 0.1057
@@ -20418,14 +20418,14 @@
   {
     "date": "2026-09-29",
     "close": 4185.1,
-    "composite_score": 0.1173,
+    "composite_score": 0.1178,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0417,
+      "log_regression": 0.043,
       "ma200_multiple": 0.0502,
       "rsi14": 0.3618,
       "vol_adj_momentum": 0.0893
@@ -20434,14 +20434,14 @@
   {
     "date": "2026-09-30",
     "close": 4159.8,
-    "composite_score": 0.1053,
+    "composite_score": 0.1057,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0267,
+      "log_regression": 0.028,
       "ma200_multiple": 0.0475,
       "rsi14": 0.3435,
       "vol_adj_momentum": 0.0768
@@ -20450,14 +20450,14 @@
   {
     "date": "2026-10-01",
     "close": 4183.9,
-    "composite_score": 0.1353,
+    "composite_score": 0.1355,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0384,
+      "log_regression": 0.039,
       "ma200_multiple": 0.0534,
       "rsi14": 0.3759,
       "vol_adj_momentum": 0.1666
@@ -20530,14 +20530,14 @@
   {
     "date": "2026-10-06",
     "close": 4167.4,
-    "composite_score": 0.114,
+    "composite_score": 0.1142,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0253,
+      "log_regression": 0.0259,
       "ma200_multiple": 0.0551,
       "rsi14": 0.3907,
       "vol_adj_momentum": 0.0661
@@ -20546,14 +20546,14 @@
   {
     "date": "2026-10-07",
     "close": 4111.3,
-    "composite_score": 0.0904,
+    "composite_score": 0.0907,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0097,
+      "log_regression": 0.0104,
       "ma200_multiple": 0.0447,
       "rsi14": 0.3404,
       "vol_adj_momentum": 0.0389
@@ -20562,14 +20562,14 @@
   {
     "date": "2026-10-08",
     "close": 4141.3,
-    "composite_score": 0.1153,
+    "composite_score": 0.1156,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0162,
+      "log_regression": 0.0168,
       "ma200_multiple": 0.0512,
       "rsi14": 0.386,
       "vol_adj_momentum": 0.0984
@@ -20578,14 +20578,14 @@
   {
     "date": "2026-10-09",
     "close": 4186.1,
-    "composite_score": 0.1358,
+    "composite_score": 0.1363,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0304,
+      "log_regression": 0.0317,
       "ma200_multiple": 0.0621,
       "rsi14": 0.4473,
       "vol_adj_momentum": 0.101
@@ -20610,14 +20610,14 @@
   {
     "date": "2026-10-11",
     "close": 4187.4,
-    "composite_score": 0.1408,
+    "composite_score": 0.141,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0284,
+      "log_regression": 0.0291,
       "ma200_multiple": 0.064,
       "rsi14": 0.4501,
       "vol_adj_momentum": 0.1241
@@ -20642,14 +20642,14 @@
   {
     "date": "2026-10-13",
     "close": 4156.3,
-    "composite_score": 0.1254,
+    "composite_score": 0.1256,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0168,
+      "log_regression": 0.0174,
       "ma200_multiple": 0.0562,
       "rsi14": 0.4136,
       "vol_adj_momentum": 0.1136
@@ -20658,14 +20658,14 @@
   {
     "date": "2026-10-14",
     "close": 4112.8,
-    "composite_score": 0.1086,
+    "composite_score": 0.1088,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0032,
+      "log_regression": 0.0039,
       "ma200_multiple": 0.0465,
       "rsi14": 0.367,
       "vol_adj_momentum": 0.1123
@@ -20673,18 +20673,34 @@
   },
   {
     "date": "2026-10-15",
-    "close": 4142.2,
-    "composite_score": 0.1315,
+    "close": 4153.0,
+    "composite_score": 0.1403,
     "zone": "Extreme Buy",
     "tier": "buy",
     "multiplier": 3.0,
     "size_usd": 30.0,
     "action": "Max accumulate",
     "components": {
-      "log_regression": 0.0123,
-      "ma200_multiple": 0.0542,
-      "rsi14": 0.415,
-      "vol_adj_momentum": 0.1534
+      "log_regression": 0.0161,
+      "ma200_multiple": 0.0567,
+      "rsi14": 0.4309,
+      "vol_adj_momentum": 0.1715
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "close": 4171.8,
+    "composite_score": 0.1565,
+    "zone": "Strong Buy",
+    "tier": "buy",
+    "multiplier": 1.5,
+    "size_usd": 15.0,
+    "action": "Accumulate",
+    "components": {
+      "log_regression": 0.0226,
+      "ma200_multiple": 0.0644,
+      "rsi14": 0.4584,
+      "vol_adj_momentum": 0.2043
     }
   }
 ]
